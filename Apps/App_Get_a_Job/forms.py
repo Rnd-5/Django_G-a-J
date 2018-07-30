@@ -1,6 +1,9 @@
 # coding=utf-8
 from django import forms
 from .models import *
+from django.contrib.auth.forms import UserCreationForm
+from django.contrib.auth.models import User
+
 
 class SolicitanteForm(forms.ModelForm):
     class Meta:
@@ -78,3 +81,5 @@ class OfertasForm(forms.ModelForm):
                     'Estado': forms.TextInput(),
                     'Empleadores_RNC': forms.Select()
                   }
+
+

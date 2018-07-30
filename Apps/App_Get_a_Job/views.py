@@ -37,3 +37,11 @@ def crearOferta(request):
     else:
         form = OfertasForm()
     return render(request, 'crearOfrt.html', {'form': form})
+
+
+def login(request):
+    return render(request, 'App_Get_a_Job/Login_Registro.html')
+
+
+def PagP(request):
+    return render(request, 'App_G_a_J/C_Principal/PagP.html')

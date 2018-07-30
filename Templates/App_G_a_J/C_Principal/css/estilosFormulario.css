@@ -1,0 +1,60 @@
+.cont_1{
+	border-radius: 15px;
+	border: 1px; 
+	width: 55em;
+	background: #424949;
+}
+
+ul[id="lista_1"]{
+	list-style: none;
+	padding: 2px;
+}
+/*
+li[id="input_Form"]{
+	padding: 2px;
+}*/
+li[id="input_Form"]{
+	width: 30%;/*---46%*/
+	position: static;
+	display: inline-block
+
+}
+li[id="input_Form"] #entradas{
+	width: 15em;
+	position: static;
+	height: 46px;
+
+}
+li[id="input_Form"] #lbl_inpt{
+	display: none;
+	float: left;
+	font-size: 1.5em;
+
+}
+/*
+	div[class="container-fluid"] .telefono, .tiuloProf, .fechaTitulo{
+	max-width: 15em; 
+	width: 47%;
+    float: left;
+	}
+
+	div[class="container-fluid"] .direccion{
+	max-width: 25em; 
+	width: 47%;
+	float: left;	
+	}
+*/
+li[id="input_TxtArea"]{
+	padding-top: 5px; 
+	max-width: 94%;
+	position: static;
+	padding-left: 2.4em;
+}
+li[id="input_TxtArea"] textarea{
+	height: 7em;
+}
+
+h3{
+	text-align: left;
+	color: #868e96;
+}
