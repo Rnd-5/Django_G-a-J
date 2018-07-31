@@ -199,10 +199,19 @@
     color: #2c3e50; /*########*/
 }
 
+.login .box .form input[id="id_Nombre"],
+.login .box .form input[id="id_Cedula"],
+.login .box .form input[id="id_Sexo"],
+.login .box .form input[id="id_Clave"],
+.login .box .form input[id="id_Nombre"],
 .registroSoliciante .form .form-group input[id="nombre"], .registroSoliciante .form .form-group select[id="genero"], .registroSoliciante .form .form-group input[id="password"], .registroSoliciante .form .form-group input[id="cedula"],.registroEmpleador .form .form-group input[id="nomEmpresa"], .registroEmpleador .form .form-group select[id="inputTipoEmpresa"], .registroEmpleador .form .form-group input[id="password"], .registroSoliciante .form .form-group select[id="inputFechaEmpresa"], .registroEmpleador .form .form-group input[id="direccion"]{
     width: 47%;
     float: left;
 }
+
+.login .box .form input[id="id_Apellido"],
+.login .box .form input[id="id_Fecha_Nacimiento"],
+.login .box .form input[id="id_Email"],
 .registroSoliciante .form .form-group input[id="apellido"], .registroSoliciante .form .form-group input[id="fechaNaci"], .registroSoliciante .form .form-group input[id="password_confirmation"], .registroEmpleador .form .form-group input[id="inputFechaEmpresa"], .registroEmpleador .form .form-group input[id="password_confirmation"], .registroEmpleador .form .form-group input[id="email"], .registroEmpleador .form .form-group input[id="RNC"]{
     width: 47%;
     float: right;
@@ -213,7 +222,9 @@
         width: 100%;
     }
 }
-
+label{
+    display: none;
+}
  #tituloRegistro, #tituloRegS, #tituloRegE{
     color: white;
     margin-right: auto;

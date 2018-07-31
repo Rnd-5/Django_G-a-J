@@ -36,7 +36,7 @@
                                     <center><img src="{% static 'Imagenes/Logo.png' %}" id="Logo" alt="Get a Job" /></center>
 
                                     <form method="post" action="/login" accept-charset="UTF-8">
-                                        <input id="email" class="form-control" type="text" placeholder="Email" name="email" required="required">
+                                        <input id="email" class="form-control" type="text" placeholder="Email" name="username" required="required">
                                         <input id="password" class="form-control" type="password" placeholder="Contraseña" name="password" required="required">
                                         <input class="btn btn-default btn-login" type="submit"  value="Iniciar sesion" > <!--onclick=" location='{% static 'C_Principal/PagP.html' %}'">
                                         -->
@@ -67,13 +67,21 @@
                                     <h2 id="tituloRegS">Registro de solicitantes</h2>
 
                                     <div class="form-group">
-                                        <form method="post"  class="post-form">
-                                            {% csrf_token %}
-                                            {{form_Solct.as_p}}
-                                            <button type="submit" class="btn btn-primary btn-enviar" name="button">Crear</button>
-                                        </form>
+                                        <input id="nombre" class="form-control" type="text" placeholder="Nombre" name="nombre" title="Ingrese su nombre" value="{{solicitante.Nombre}}">
+                                        <input id="apellido" class="form-control" type="text" placeholder="Apellido" name="apellido" title="Ingrese su apellido." value="{{solicitante.Apellido}}">
+                                        <input type="date" name="" id="fechaNaci" class="form-control" value="" required="required" title="Ingrese su fecha de nacimeinto." value="{{solicitante.Fecha_Nac}}">
+                                        <select name="genero" id="genero" class="form-control Genero" required="required" title="Seleccione el genero correspondiente" value="{{solicitante.Sexo}}">
+                                            <option value="">Seleccione su sexo</option>
+                                            <option value="">Masculino</option>
+                                            <option value="">Femenino</option>
+                                        </select>
+                                        <input class="form-control" type="text" name="" value="" required="required" placeholder="Cédula de Indentidad" id="cedula" value="{{solicitante.Cedula}}">
+                                        <input id="email" class="form-control" type="email" placeholder="Email" name="email" required="required" title="Ingrese su email." style="width: 47%; float: right;" value="{{solicitante.Email}}">
+                                        <!--<input id="email" type="email" name="email" value="" placeholder="E-mail"> -->
+                                        <input id="password" class="form-control" type="password" placeholder="Contraseña" name="password" title="Ingrese una contraseña."required="required" value="{{solicitante.Contr}}">
+                                        <input id="password_confirmation" class="form-control" type="password" placeholder="Repita su contraseña" name="password_confirmation" title="Confirme su contraseña"required="required">
                                     </div>
-                                    <!--<button type="submit" class="btn btn-primary btn-enviar">Enviar</button>-->
+                                    <button type="submit" class="btn btn-primary btn-enviar">Enviar</button>
                                 </form>
                             </div>
                         </div>
@@ -85,8 +93,8 @@
                                     <h2 id="tituloRegE">Registro de empleadores</h2>
 
                                     <div class="form-group">
-                                         {% csrf_token %}
-                                         {{form_Empl.as_p}}
+
+                                        {{form_Empl.as_p}}
                                         <!--
                                         <input type="text" class="form-control" id="nomEmpresa" placeholder="Nombre de la Empresa" title="Ingrese el nombre de la empresa.">
                                         <input type="date" name="fechaEmpresa" id="inputFechaEmpresa" class="form-control" value="" required="required" title="Ingrese la fecha de constitución de la empresa.">
@@ -101,11 +109,9 @@
                                         <input id="email" class="form-control" type="email" placeholder="Email" name="emailEmpresa" required="required" title="Ingrese el email de la empresa.">
                                         <input id="password" class="form-control" type="password" placeholder="Contraseña" name="password" title="Ingrese una contraseña."required="required">
                                         <input id="password_confirmation" class="form-control" type="password" placeholder="Repita su contraseña" name="password_confirmation" title="Confirme su contraseña"required="required">
-                                        -->
-
-                                        <button type="submit" class="btn btn-primary btn-enviar" name="button">Crear</button>
+                                    -->
                                     </div>
-                                    <!--<button type="submit" class="btn btn-primary btn-enviar">Enviar</button>-->
+                                    <button type="submit" class="btn btn-primary btn-enviar">Enviar</button>
                                 </form>
                             </div>
                         </div>

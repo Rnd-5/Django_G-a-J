@@ -7,15 +7,22 @@ from .forms import *
 def home(request):
     return render(request, 'index.html')
 
+
 def crearSolicitante(request):
     if request.method == 'POST':
-        form = SolicitanteForm(request.POST)
-        if form.is_valid():
-            form.save()
+        form1 = SolicitanteForm(request.POST)
+        form2 = EmpleadoresForm(request.POST)
+        if form1.is_valid():
+            form1.save()
+            return redirect('App_Get_a_Job:home')
+        if form2.is_valid():
+            form2.save()
             return redirect('App_Get_a_Job:home')
     else:
-        form = SolicitanteForm()
-    return render(request, 'crearSolct.html', {'form': form})
+        form1 = SolicitanteForm()
+        form2 = EmpleadoresForm()
+
+    return render(request, 'crearSolct.html', {'form_Solct': form1, 'form_Empl': form2})
 
 def crearEmpleador(request):
     if request.method == 'POST':
@@ -25,7 +32,7 @@ def crearEmpleador(request):
             return redirect('App_Get_a_Job:home')
     else:
         form = EmpleadoresForm()
-    return render(request, 'crearEmpl.html', {'form': form})
+    return render(request, 'crearEmpl2.html', {'form_Empl': form})
 
 
 def crearOferta(request):
