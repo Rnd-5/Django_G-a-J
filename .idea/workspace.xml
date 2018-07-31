@@ -5,12 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="af14b983-d1db-46d5-afc9-afa20e47b14b" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Apps/App_Get_a_Job/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/Apps/App_Get_a_Job/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apps/App_Get_a_Job/static/css/login-register.css" beforeDir="false" afterPath="$PROJECT_DIR$/Apps/App_Get_a_Job/static/css/login-register.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apps/App_Get_a_Job/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Apps/App_Get_a_Job/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BD_Proyecto_F.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/BD_Proyecto_F.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Templates/crearSolct.html" beforeDir="false" afterPath="$PROJECT_DIR$/Templates/crearSolct.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Templates/crearEmpl2.html" beforeDir="false" afterPath="$PROJECT_DIR$/Templates/crearEmpl2.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -39,16 +36,19 @@
       <file leaf-file-name="forms.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Apps/App_Get_a_Job/forms.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="93">
-              <caret line="76" column="49" selection-start-line="76" selection-start-column="49" selection-end-line="84" selection-end-column="20" />
+            <state relative-caret-position="324">
+              <caret line="65" column="65" selection-start-line="65" selection-start-column="65" selection-end-line="65" selection-end-column="65" />
               <folding>
-                <element signature="e#15#39#0" expanded="true" />
+                <element signature="e#16#40#0" expanded="true" />
                 <element signature="e#207#1216#0" />
                 <element signature="e#1452#1783#1" />
                 <element signature="e#1852#2161#0" />
-                <element signature="e#2195#2477#0" />
                 <element signature="e#2625#2841#0" />
-                <element signature="e#2978#3335#0" />
+                <element signature="e#2978#3253#0" />
+                <element signature="e#3304#3596#0" />
+                <element signature="e#3415#3843#0" />
+                <element signature="e#3744#4111#0" />
+                <element signature="e#4416#4491#0" />
                 <element signature="e#2300#3449#0" />
               </folding>
             </state>
@@ -58,8 +58,8 @@
       <file leaf-file-name="crearEmpl2.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Templates/crearEmpl2.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="108" column="47" lean-forward="true" selection-start-line="108" selection-start-column="47" selection-end-line="108" selection-end-column="191" />
+            <state relative-caret-position="248">
+              <caret line="97" selection-start-line="97" selection-end-line="97" />
               <folding>
                 <element signature="n#head#0;n#html#0;n#!!top" />
                 <element signature="n#style#1;n#head#0;n#html#0;n#!!top" />
@@ -70,6 +70,7 @@
                 <element signature="n#div#0;n#form#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#style#0;n#input#4;n#div#0;n#form#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#6362#8431#0" />
                 <element signature="n#style#0;n#div#1;n#div#3;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#div#1;n#div#3;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
               </folding>
@@ -169,7 +170,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="676" />
     <option name="width" value="697" />
     <option name="height" value="735" />
@@ -265,8 +266,8 @@
       <window_info anchor="bottom" id="Version Control" order="0" weight="0.3280507" />
       <window_info anchor="bottom" id="Python Console" order="5" />
       <window_info anchor="bottom" id="Run" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="2" weight="0.28526148" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.15812592" />
+      <window_info anchor="bottom" id="Terminal" order="2" visible="true" weight="0.28526148" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15812592" />
       <window_info anchor="bottom" id="Find" order="8" />
       <window_info id="Structure" order="3" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="1" side_tool="true" />
@@ -409,13 +410,16 @@
         <state relative-caret-position="1890">
           <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
           <folding>
-            <element signature="e#15#39#0" expanded="true" />
+            <element signature="e#16#40#0" expanded="true" />
             <element signature="e#207#1216#0" />
             <element signature="e#1452#1783#1" />
             <element signature="e#1852#2161#0" />
-            <element signature="e#2195#2477#0" />
             <element signature="e#2625#2841#0" />
-            <element signature="e#2978#3335#0" />
+            <element signature="e#2978#3253#0" />
+            <element signature="e#3304#3596#0" />
+            <element signature="e#3415#3843#0" />
+            <element signature="e#3744#4111#0" />
+            <element signature="e#4416#4491#0" />
             <element signature="e#2300#3449#0" />
           </folding>
         </state>
@@ -553,13 +557,16 @@
         <state relative-caret-position="16">
           <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
           <folding>
-            <element signature="e#15#39#0" expanded="true" />
+            <element signature="e#16#40#0" expanded="true" />
             <element signature="e#207#1216#0" />
             <element signature="e#1452#1783#1" />
             <element signature="e#1852#2161#0" />
-            <element signature="e#2195#2477#0" />
             <element signature="e#2625#2841#0" />
-            <element signature="e#2978#3335#0" />
+            <element signature="e#2978#3253#0" />
+            <element signature="e#3304#3596#0" />
+            <element signature="e#3415#3843#0" />
+            <element signature="e#3744#4111#0" />
+            <element signature="e#4416#4491#0" />
             <element signature="e#2300#3449#0" />
           </folding>
         </state>
@@ -753,26 +760,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Templates/crearEmpl2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="108" column="47" lean-forward="true" selection-start-line="108" selection-start-column="47" selection-end-line="108" selection-end-column="191" />
-          <folding>
-            <element signature="n#head#0;n#html#0;n#!!top" />
-            <element signature="n#style#1;n#head#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#div#0;n#form#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#style#0;n#input#4;n#div#0;n#form#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#3;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#div#1;n#div#3;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Apps/App_Get_a_Job/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="149">
@@ -786,18 +773,42 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Templates/crearEmpl2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="97" selection-start-line="97" selection-end-line="97" />
+          <folding>
+            <element signature="n#head#0;n#html#0;n#!!top" />
+            <element signature="n#style#1;n#head#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#0;n#form#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#input#4;n#div#0;n#form#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#6362#8431#0" />
+            <element signature="n#style#0;n#div#1;n#div#3;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#1;n#div#3;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Apps/App_Get_a_Job/forms.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="93">
-          <caret line="76" column="49" selection-start-line="76" selection-start-column="49" selection-end-line="84" selection-end-column="20" />
+        <state relative-caret-position="324">
+          <caret line="65" column="65" selection-start-line="65" selection-start-column="65" selection-end-line="65" selection-end-column="65" />
           <folding>
-            <element signature="e#15#39#0" expanded="true" />
+            <element signature="e#16#40#0" expanded="true" />
             <element signature="e#207#1216#0" />
             <element signature="e#1452#1783#1" />
             <element signature="e#1852#2161#0" />
-            <element signature="e#2195#2477#0" />
             <element signature="e#2625#2841#0" />
-            <element signature="e#2978#3335#0" />
+            <element signature="e#2978#3253#0" />
+            <element signature="e#3304#3596#0" />
+            <element signature="e#3415#3843#0" />
+            <element signature="e#3744#4111#0" />
+            <element signature="e#4416#4491#0" />
             <element signature="e#2300#3449#0" />
           </folding>
         </state>

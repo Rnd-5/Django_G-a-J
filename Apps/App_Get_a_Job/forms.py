@@ -36,7 +36,7 @@ class SolicitanteForm(forms.ModelForm):
 class EmpleadoresForm(forms.ModelForm):
     class Meta:
         model = Empleadores
-        fields = ['RNC', 'Nombre', 'FechaConst', 'FormaJurd', 'Direccion', 'Email', 'Clave', 'Estado']
+        fields = [ 'Nombre', 'FechaConst', 'FormaJurd', 'RNC', 'Direccion', 'Email', 'Clave', 'Estado']
         """labels = {
                 'RNC': 'RNC',
                 'Nombre': 'Nombre',
@@ -63,7 +63,7 @@ class EmpleadoresForm(forms.ModelForm):
                         'class': "form-control",
                         'value': "",
                         'required': "required",
-                        'title': "Ingrese la fecha de constitución de la empresa."
+                        'title': "Ingrese la fecha de constitucion de la empresa."
                     }),
 
                 'FormaJurd': forms.Select(attrs={
@@ -74,27 +74,48 @@ class EmpleadoresForm(forms.ModelForm):
                         'title': "Seleccione el tipo de empresa correspondiente."
                     }),
 
-                'Email': forms.EmailInput(attrs={
-                        'id':  "email",
+                'RNC': forms.NumberInput(attrs={
+                        'type': "text",
                         'class': "form-control",
-                        'type': "email",
-                        'placeholder': "Email",
-                        'name': "emailEmpresa",
-                        'required': "required",
-                        'title': "Ingrese el email de la empresa."
+                        'id': "RNC",
+                        'placeholder': "RNC de la empresa",
+                        'title': "Ingrese RNC de la empresa.",
                     }),
-
                 'Direccion': forms.TextInput(attrs={
-
+                        'type': "text",
+                        'class': "form-control",
+                        'id': "direccion",
+                        'placeholder': 'Direccion de la empresa',
+                        'title': "Ingrese la direccion de la empresa."
                     }),
+
+                'Email': forms.EmailInput(attrs={
+                'id': "email",
+                'class': "form-control",
+                'type': "email",
+                'placeholder': "Email",
+                'name': "emailEmpresa",
+                'required': "required",
+                'title': "Ingrese el email de la empresa."
+            }),
 
                 'Clave': forms.PasswordInput(attrs={
-
+                        'id': "password",
+                        'class': "form-control",
+                        'type': "password",
+                        'placeholder': "Password",
+                        'name': "password",
+                        'title': "Ingrese una contraseña.",
+                        'required': "required"
                     }),
 
                 'Estado': forms.TextInput(attrs={
-
-                    })
+                        'value': 'A',
+                        'style': 'display: none',
+                        'type': "text",
+                        'class': "form-control",
+                        'id': "Estado",
+                })
 
                 }
 
