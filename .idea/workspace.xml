@@ -2,15 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="af14b983-d1db-46d5-afc9-afa20e47b14b" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apps/App_Get_a_Job/migrations/0002_delete_pruebas.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Apps/App_Get_a_Job/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/Apps/App_Get_a_Job/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apps/App_Get_a_Job/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Apps/App_Get_a_Job/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apps/App_Get_a_Job/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Apps/App_Get_a_Job/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BD_Proyecto_F.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/BD_Proyecto_F.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_Final_DS/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_Final_DS/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_Final_DS/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_Final_DS/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Templates/crearSolct.html" beforeDir="false" afterPath="$PROJECT_DIR$/Templates/crearSolct.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -21,42 +17,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Apps/App_Get_a_Job/urls.py">
+      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Apps/App_Get_a_Job/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="245">
-              <caret line="7" column="37" lean-forward="true" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
+            <state relative-caret-position="105">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
               <folding>
-                <element signature="e#0#32#0" expanded="true" />
+                <element signature="e#602#796#0" />
+                <element signature="e#1332#1862#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="forms.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="forms.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Apps/App_Get_a_Job/forms.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="366">
-              <caret line="85" selection-start-line="85" selection-end-line="85" />
+            <state relative-caret-position="175">
+              <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
               <folding>
                 <element signature="e#15#39#0" expanded="true" />
-                <element signature="e#107#1116#0" />
-                <element signature="e#1163#2157#0" />
-                <element signature="e#2200#3349#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Proyecto_Final_DS/settings.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="296">
-              <caret line="111" column="39" selection-start-line="111" selection-start-column="39" selection-end-line="111" selection-end-column="39" />
-              <folding>
-                <element signature="e#0#9#0" expanded="true" />
-                <element signature="e#1910#2049#0" />
-                <element signature="e#2182#2578#0" />
+                <element signature="e#1263#2257#0" />
+                <element signature="e#2300#3449#0" />
               </folding>
             </state>
           </provider>
@@ -65,7 +47,7 @@
       <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Apps/App_Get_a_Job/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="307">
+            <state relative-caret-position="335">
               <caret line="41" column="8" selection-start-line="41" selection-start-column="8" selection-end-line="41" selection-end-column="8" />
               <folding>
                 <element signature="e#24#63#0" expanded="true" />
@@ -77,26 +59,62 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Login_Registro.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Login_Registro.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Templates/App_G_a_J/Login_Registro.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="38" column="125" selection-start-line="38" selection-start-column="125" selection-end-line="38" selection-end-column="125" />
+            <state relative-caret-position="316">
+              <caret line="104" column="62" selection-end-line="134" />
               <folding>
                 <element signature="n#head#0;n#html#0;n#!!top" />
+                <element signature="n#style#1;n#head#0;n#html#0;n#!!top" />
+                <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Proyecto_Final_DS/urls.py">
+      <file leaf-file-name="estilos.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Apps/App_Get_a_Job/static/css/estilos.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="23" column="31" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
+            <state relative-caret-position="-28">
+              <caret line="181" column="5" lean-forward="true" selection-start-line="181" selection-start-column="5" selection-end-line="181" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login-register.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Apps/App_Get_a_Job/static/css/login-register.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-3080">
+              <caret line="59" column="1" lean-forward="true" selection-start-line="59" selection-start-column="1" selection-end-line="59" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="resume.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Apps/App_Get_a_Job/static/css/resume.css">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="sb-admin.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Apps/App_Get_a_Job/static/css/sb-admin.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="35">
+              <caret line="1" column="21" lean-forward="true" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="crearSolct.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Templates/crearSolct.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="335">
+              <caret line="126" lean-forward="true" selection-start-line="126" selection-end-line="126" />
               <folding>
-                <element signature="e#0#650#1" />
-                <element signature="e#651#692#0" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#3;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -125,18 +143,19 @@
         <option value="$PROJECT_DIR$/Templates/base.html" />
         <option value="$PROJECT_DIR$/Apps/App_Get_a_Job/models.py" />
         <option value="$PROJECT_DIR$/Templates/crearOfrt.html" />
-        <option value="$PROJECT_DIR$/Apps/App_Get_a_Job/forms.py" />
         <option value="$PROJECT_DIR$/Apps/App_Get_a_Job/views.py" />
         <option value="$PROJECT_DIR$/Proyecto_Final_DS/settings.py" />
         <option value="$PROJECT_DIR$/Proyecto_Final_DS/urls.py" />
         <option value="$PROJECT_DIR$/Apps/App_Get_a_Job/urls.py" />
         <option value="$PROJECT_DIR$/Templates/App_G_a_J/Login_Registro.html" />
+        <option value="$PROJECT_DIR$/Templates/crearSolct.html" />
+        <option value="$PROJECT_DIR$/Apps/App_Get_a_Job/forms.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="699" />
-    <option name="width" value="674" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="676" />
+    <option name="width" value="697" />
     <option name="height" value="735" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -162,11 +181,6 @@
               <item name="Proyecto_Final_DS" type="462c0819:PsiDirectoryNode" />
               <item name="Apps" type="462c0819:PsiDirectoryNode" />
               <item name="App_Get_a_Job" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Proyecto_Final_DS" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Proyecto_Final_DS" type="462c0819:PsiDirectoryNode" />
-              <item name="Proyecto_Final_DS" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Proyecto_Final_DS" type="b2602c69:ProjectViewProjectNode" />
@@ -213,54 +227,76 @@
       <option name="presentableId" value="Default" />
       <updated>1532911153294</updated>
     </task>
+    <task id="LOCAL-00001" summary="Tercer Commit(creacion de Solicitante agregada con exito al login usando los forms de django).">
+      <created>1533015064645</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1533015064645</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="699" y="0" width="674" height="735" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.44541484" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15812592" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info id="DB Browser" order="2" />
       <window_info anchor="bottom" id="DB Execution Console" order="1" />
       <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" />
-      <window_info anchor="bottom" id="Run" order="9" />
       <window_info anchor="bottom" id="Version Control" order="0" weight="0.3280507" />
       <window_info anchor="bottom" id="Python Console" order="5" />
+      <window_info anchor="bottom" id="Run" order="9" />
       <window_info id="Structure" order="3" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="2" visible="true" weight="0.31993568" />
-      <window_info anchor="bottom" id="Debug" order="10" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="2" visible="true" weight="0.28526148" />
       <window_info id="Favorites" order="1" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="10" weight="0.4" />
+      <window_info active="true" anchor="right" x="359" y="48" width="647" height="631" id="Embedded Web Browser" order="3" visible="true" weight="0.4736457" />
+      <window_info anchor="bottom" id="DB Execution Console" order="1" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
+      <window_info anchor="right" id="emBrowser" order="3" weight="0.4238653" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.44541484" />
+      <window_info id="Structure" order="3" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Message" order="7" />
-      <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="8" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="0" weight="0.3280507" />
+      <window_info anchor="bottom" id="Run" order="9" />
+      <window_info id="DB Browser" order="2" />
+      <window_info anchor="bottom" id="Debug" order="10" weight="0.4" />
       <window_info anchor="bottom" id="Messages" order="4" />
+      <window_info anchor="bottom" id="Message" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
+      <window_info id="Favorites" order="1" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="8" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="2" visible="true" weight="0.31993568" />
+      <window_info anchor="bottom" id="Python Console" order="5" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
       <window_info content_ui="combo" id="Project" order="0" weight="0.44541484" />
       <window_info id="Structure" order="3" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="DB Execution Console" order="1" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info id="Favorites" order="1" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="0" weight="0.3280507" />
       <window_info anchor="bottom" id="Run" order="9" />
       <window_info id="DB Browser" order="2" />
-      <window_info anchor="bottom" id="Message" order="7" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Python Console" order="5" />
       <window_info anchor="bottom" id="Debug" order="10" weight="0.4" />
       <window_info active="true" anchor="bottom" id="Terminal" order="2" visible="true" weight="0.31993568" />
       <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Find" order="8" />
-      <window_info anchor="bottom" id="Version Control" order="0" weight="0.3280507" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="7" />
       <window_info anchor="bottom" id="Messages" order="4" />
-      <window_info anchor="bottom" id="Python Console" order="5" />
+      <window_info id="Favorites" order="1" side_tool="true" />
     </layout-to-restore>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -292,19 +328,90 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Tercer Commit(creacion de Solicitante agregada con exito al login usando los forms de django)." />
+    <option name="LAST_COMMIT_MESSAGE" value="Tercer Commit(creacion de Solicitante agregada con exito al login usando los forms de django)." />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <option name="time" value="2" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Templates/crearSolct.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="71" column="52" selection-start-line="71" selection-start-column="52" selection-end-line="71" selection-end-column="52" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#3;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Proyecto_Final_DS/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="35">
+          <caret line="23" column="31" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#650#1" />
+            <element signature="e#651#692#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Apps/App_Get_a_Job/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="5" column="15" lean-forward="true" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Apps/App_Get_a_Job/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="18" column="46" lean-forward="true" selection-start-line="18" selection-start-column="46" selection-end-line="18" selection-end-column="46" />
+          <folding>
+            <element signature="e#15#39#0" expanded="true" />
+            <element signature="e#1263#2257#0" />
+            <element signature="e#2300#3449#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Apps/App_Get_a_Job/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="335">
+          <caret line="41" column="8" selection-start-line="41" selection-start-column="8" selection-end-line="41" selection-end-column="8" />
+          <folding>
+            <element signature="e#24#63#0" expanded="true" />
+            <element signature="e#214#494#0" />
+            <element signature="e#529#808#0" />
+            <element signature="e#841#1112#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Apps/App_Get_a_Job/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="35">
+          <caret line="13" column="9" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
+          <folding>
+            <element signature="e#602#796#0" />
+            <element signature="e#1332#1862#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Apps/App_Get_a_Job/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret line="1" column="20" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -313,10 +420,7 @@
         <state relative-caret-position="1960">
           <caret line="56" selection-start-line="56" selection-end-line="56" />
           <folding>
-            <element signature="e#24#63#0" expanded="true" />
-            <element signature="e#133#562#0" />
             <element signature="e#602#796#0" />
-            <element signature="e#835#1293#0" />
             <element signature="e#1332#1862#0" />
           </folding>
         </state>
@@ -328,9 +432,8 @@
           <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
           <folding>
             <element signature="e#15#39#0" expanded="true" />
-            <element signature="e#107#1116#0" />
-            <element signature="e#1163#2157#0" />
-            <element signature="e#2200#3349#0" />
+            <element signature="e#1263#2257#0" />
+            <element signature="e#2300#3449#0" />
           </folding>
         </state>
       </provider>
@@ -339,10 +442,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="245">
           <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#650#1" />
-            <element signature="e#651#692#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -384,11 +483,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="140">
           <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-            <element signature="e#1910#2049#0" />
-            <element signature="e#2182#2578#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -399,9 +493,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="307">
           <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
-          <folding>
-            <element signature="e#24#63#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -431,9 +522,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="e#0#24#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -470,10 +558,7 @@
         <state relative-caret-position="800">
           <caret line="56" selection-start-line="56" selection-end-line="56" />
           <folding>
-            <element signature="e#24#63#0" expanded="true" />
-            <element signature="e#133#562#0" />
             <element signature="e#602#796#0" />
-            <element signature="e#835#1293#0" />
             <element signature="e#1332#1862#0" />
           </folding>
         </state>
@@ -485,9 +570,8 @@
           <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
           <folding>
             <element signature="e#15#39#0" expanded="true" />
-            <element signature="e#107#1116#0" />
-            <element signature="e#1163#2157#0" />
-            <element signature="e#2200#3349#0" />
+            <element signature="e#1263#2257#0" />
+            <element signature="e#2300#3449#0" />
           </folding>
         </state>
       </provider>
@@ -503,10 +587,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="350">
           <caret line="24" column="19" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
-          <folding>
-            <element signature="e#0#650#1" />
-            <element signature="e#651#692#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -544,9 +624,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="307">
           <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
-          <folding>
-            <element signature="e#24#63#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -584,13 +661,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Apps/App_Get_a_Job/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="560">
-          <caret line="56" selection-start-line="56" selection-end-line="56" />
+        <state relative-caret-position="105">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
           <folding>
-            <element signature="e#24#63#0" expanded="true" />
-            <element signature="e#133#562#0" />
             <element signature="e#602#796#0" />
-            <element signature="e#835#1293#0" />
             <element signature="e#1332#1862#0" />
           </folding>
         </state>
@@ -603,16 +677,62 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Proyecto_Final_DS/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="111" column="39" selection-start-line="111" selection-start-column="39" selection-end-line="111" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Proyecto_Final_DS/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="23" column="31" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Apps/App_Get_a_Job/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="7" column="37" lean-forward="true" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Templates/App_G_a_J/Login_Registro.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="104" column="62" selection-end-line="134" />
+          <folding>
+            <element signature="n#head#0;n#html#0;n#!!top" />
+            <element signature="n#style#1;n#head#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Apps/App_Get_a_Job/static/css/sb-admin.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="35">
+          <caret line="1" column="21" lean-forward="true" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Templates/crearSolct.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        <state relative-caret-position="335">
+          <caret line="126" lean-forward="true" selection-start-line="126" selection-end-line="126" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#3;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Apps/App_Get_a_Job/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
+        <state relative-caret-position="335">
           <caret line="41" column="8" selection-start-line="41" selection-start-column="8" selection-end-line="41" selection-end-column="8" />
           <folding>
             <element signature="e#24#63#0" expanded="true" />
@@ -623,58 +743,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Proyecto_Final_DS/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="111" column="39" selection-start-line="111" selection-start-column="39" selection-end-line="111" selection-end-column="39" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-            <element signature="e#1910#2049#0" />
-            <element signature="e#2182#2578#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Apps/App_Get_a_Job/forms.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="366">
-          <caret line="85" selection-start-line="85" selection-end-line="85" />
+        <state relative-caret-position="175">
+          <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
           <folding>
             <element signature="e#15#39#0" expanded="true" />
-            <element signature="e#107#1116#0" />
-            <element signature="e#1163#2157#0" />
-            <element signature="e#2200#3349#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Proyecto_Final_DS/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="23" column="31" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
-          <folding>
-            <element signature="e#0#650#1" />
-            <element signature="e#651#692#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Apps/App_Get_a_Job/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="7" column="37" lean-forward="true" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Templates/App_G_a_J/Login_Registro.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="38" column="125" selection-start-line="38" selection-start-column="125" selection-end-line="38" selection-end-column="125" />
-          <folding>
-            <element signature="n#head#0;n#html#0;n#!!top" />
+            <element signature="e#1263#2257#0" />
+            <element signature="e#2300#3449#0" />
           </folding>
         </state>
       </provider>

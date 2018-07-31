@@ -9,14 +9,14 @@ class SolicitanteForm(forms.ModelForm):
     class Meta:
         model = Solicitante
         fields = ['Cedula', 'Nombre', 'Apellido', 'Sexo', 'Fecha_Nacimiento', 'Email', 'Clave', 'Estado']
-        placeholders = {
-                        'Cedula': 'Cedula',
+        labels = {
+                        'Cedula': 'Cédula',
                         'Nombre': 'Nombre',
                         'Apellido': 'Apellido',
                         'Sexo': 'Sexo',
-                        'Fecha_Nacimiento': 'Fecha_Nacimiento',
+                        'Fecha_Nacimiento': 'Fecha de Nacimiento',
                         'Email': 'Email',
-                        'Clave': 'Clave',
+                        'Clave': 'Contraseña',
                         'Estado': 'Estado'
                         }
         widgets = {
