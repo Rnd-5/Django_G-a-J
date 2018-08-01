@@ -27,6 +27,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'Apps.App_Get_a_Job',
+    'Apps.App_Usuarios'
 ]
 
 MIDDLEWARE = [
@@ -108,6 +109,11 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/1.11/howto/static-files/
 
 STATIC_URL = '/static/'
+"""
+AUTH_USER_MODEL = 'App_Get_a_Job.User'
+AUTHENTICATION_BACKENDS = ('Apps.App_Get_a_Job.backend.UserAuthentificacionBackend',)
+"""
+
 
 LOGIN_REDIRECT_URL = reverse_lazy('home')
 LOGOUT_REDIRECT_URL = reverse_lazy('login')

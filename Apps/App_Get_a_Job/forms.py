@@ -1,10 +1,6 @@
 # coding=utf-8
 from django import forms
-from django.forms import TextInput
-
 from .models import *
-from django.contrib.auth.forms import UserCreationForm
-from django.contrib.auth.models import User
 
 
 class SolicitanteForm(forms.ModelForm):
@@ -157,12 +153,13 @@ class EmpleadoresForm(forms.ModelForm):
                         'placeholder': "RNC de la empresa",
                         'title': "Ingrese RNC de la empresa.",
                     }),
-                'Direccion': forms.TextInput(attrs={
+                'Direccion': forms.Select(attrs={
                         'type': "text",
                         'class': "form-control",
                         'id': "direccion",
                         'placeholder': 'Direccion de la empresa',
-                        'title': "Ingrese la direccion de la empresa."
+                        'title': "Ingrese la direccion de la empresa.",
+                        'style': 'width: 47%; float: left;'
                     }),
 
                 'Email': forms.EmailInput(attrs={
@@ -181,7 +178,7 @@ class EmpleadoresForm(forms.ModelForm):
                         'type': "password",
                         'placeholder': "Password",
                         'name': "password",
-                        'title': "Ingrese una contraseña.",
+                        'title': "Ingrese una password.",
                         'required': "required"
                     }),
 
@@ -232,3 +229,21 @@ class OfertasForm(forms.ModelForm):
                   }
 
 
+
+
+"""
+class UserForm(UserCreationForm):
+    class Meta:
+        model = User
+        fields = ['Nombre', 'Apellido', 'Sexo', 'Fecha_Nacimiento', 'Cedula', 'Email', 'Clave', 'Clave2', 'Estado']
+"""
+
+
+"""
+class muestraPerfil(forms.ModelForm):
+    class Meta:
+        model1 = Solicitante
+        model2 = Curriculum
+        fields1 = ['Nombre', 'Apellido']
+        fields2 = ['DescripOtrTrbj']
+"""

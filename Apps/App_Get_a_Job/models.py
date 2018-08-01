@@ -1,8 +1,6 @@
 # -*- coding: utf-8 -*-
 from __future__ import unicode_literals
-
 from django.db import models
-
 
 class Genero(models.Model):
     Cod_Gen = models.AutoField(primary_key=True)
@@ -11,6 +9,19 @@ class Genero(models.Model):
 
     def __str__(self):
         return self.Sigla
+
+
+#######################
+"""
+class uSolicitante(models.Model):
+    Nombre = models.OneToOneField(User)
+    Apellido = models.CharField(max_length=100)
+    Sexo = models.ForeignKey(Genero, on_delete=models.CASCADE)
+    Fecha_Nacimiento = models.DateField()
+    Email = models.EmailField(max_length=50)
+    Clave = models.CharField(max_length=75)
+"""
+#######################
 
 class Solicitante(models.Model):
     Cedula = models.IntegerField(primary_key=True)
@@ -28,18 +39,32 @@ class Solicitante(models.Model):
 
 class TipoEmpresa(models.Model):
     Cod_TipoEmpr = models.AutoField(primary_key=True)
-    Nombre = models.CharField(max_length=5)
+    Nombre = models.CharField(max_length=10)
     Descripcion = models.CharField(max_length=60)
 
     def __str__(self):
         return self.Nombre
 
+class Provincias(models.Model):
+    Cod_Provincia = models.AutoField(primary_key=True)
+    Nombre = models.CharField(max_length=50)
+
+    def __str__(self):
+        return self.Nombre
+
+class Paises(models.Model):
+    Cod_Pais = models.AutoField(primary_key=True)
+    Nombre = models.CharField(max_length=50)
+
+    def __str__(self):
+        return self.Nombre
+
 class Empleadores(models.Model):
-    RNC = models.IntegerField(primary_key=True)
     Nombre = models.CharField(max_length=50)
     FechaConst = models.DateField()
-    Direccion = models.CharField(max_length=200)
     FormaJurd = models.ForeignKey(TipoEmpresa, on_delete=models.CASCADE)
+    RNC = models.IntegerField(primary_key=True)
+    Direccion = models.ForeignKey(Provincias, on_delete=models.CASCADE)
     Email = models.EmailField(max_length=50)
     Clave = models.CharField(max_length=75)
     Clave2 = models.CharField(max_length=75)
@@ -101,19 +126,17 @@ class HabilidadesEstd(models.Model):
     def __str__(self):
         return self.Descripcion
 
-class Provincias(models.Model):
-    Cod_Provincia = models.AutoField(primary_key=True)
-    Nombre = models.CharField(max_length=50)
-
-    def __str__(self):
-        return self.Nombre
-
 class Curriculum(models.Model):
     Cod_Curriculum = models.AutoField(primary_key=True)
     Telefono = models.IntegerField()
-    Direccion= models.ForeignKey(Provincias, on_delete=models.CASCADE)
-    Carrera_P = models.ForeignKey(Carreras, on_delete=models.CASCADE)
-    Fecha_Carr = models.DateField()
+    Celular = models.IntegerField()
+    Pais = models.ForeignKey(Paises, on_delete=models.CASCADE)
+    Provincia = models.ForeignKey(Provincias, on_delete=models.CASCADE)
+    Direccion = models.CharField(max_length=70)
+    Institucion = models.ForeignKey(InstEstd, on_delete=models.CASCADE)
+    Titulo = models.ForeignKey(Carreras, on_delete=models.CASCADE)
+    Fecha_InicioC = models.DateField()
+    Fecha_FinC = models.DateField()
     Otro_Estd = models.ForeignKey(OtrosEstd, on_delete=models.CASCADE)
     Fecha_Estd = models.DateField()
     Trabajo_Rect = models.CharField(max_length=50)
@@ -128,5 +151,18 @@ class Curriculum(models.Model):
     Cedula_Solct = models.ForeignKey(Solicitante, on_delete=models.CASCADE)
 
     def __str__(self):
-        return str(self.Cod_Curriculum)
+        return str(self.Cod_Curriculum) + "(" +str(self.Cedula_Solct) + ")"
 
+
+"""
+class User(AbstractUser):
+    Cedula = models.IntegerField(primary_key=True)
+    Nombre = models.CharField(max_length=50)
+    Apellido = models.CharField(max_length=100)
+    Sexo = models.ForeignKey(Genero, on_delete=models.CASCADE)
+    Fecha_Nacimiento = models.DateField()
+    Email = models.EmailField(max_length=50)
+    Clave = models.CharField(max_length=75)
+    Clave2 = models.CharField(max_length=75)
+    Estado = models.CharField(max_length=1)
+"""

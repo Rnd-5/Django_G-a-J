@@ -69,21 +69,6 @@
                                     <div class="form-group">
                                         {% csrf_token %}
                                         {{form_Solct.as_p}}
-                                        <!--
-                                        <input id="nombre" class="form-control" type="text" placeholder="Nombre" name="nombre" title="Ingrese su nombre" value="{{solicitante.Nombre}}">
-                                        <input id="apellido" class="form-control" type="text" placeholder="Apellido" name="apellido" title="Ingrese su apellido." value="{{solicitante.Apellido}}">
-                                        <input type="date" name="" id="fechaNaci" class="form-control" value="" required="required" title="Ingrese su fecha de nacimeinto." value="{{solicitante.Fecha_Nac}}">
-                                        <select name="genero" id="genero" class="form-control Genero" required="required" title="Seleccione el genero correspondiente" value="{{solicitante.Sexo}}">
-                                            <option value="">Seleccione su sexo</option>
-                                            <option value="">Masculino</option>
-                                            <option value="">Femenino</option>
-                                        </select>
-                                        <input class="form-control" type="text" name="" value="" required="required" placeholder="Cédula de Indentidad" id="cedula" value="{{solicitante.Cedula}}">
-                                        <input id="email" class="form-control" type="email" placeholder="Email" name="email" required="required" title="Ingrese su email." style="width: 47%; float: right;" value="{{solicitante.Email}}">
-                                        <!--<input id="email" type="email" name="email" value="" placeholder="E-mail"> ->
-                                        <input id="password" class="form-control" type="password" placeholder="Contraseña" name="password" title="Ingrese una contraseña."required="required" value="{{solicitante.Contr}}">
-                                        <input id="password_confirmation" class="form-control" type="password" placeholder="Repita su contraseña" name="password_confirmation" title="Confirme su contraseña"required="required">
-                                    -->
                                     </div>
                                     <button type="submit" class="btn btn-primary btn-enviar">Enviar</button>
                                 </form>
@@ -99,21 +84,6 @@
                                     <div class="form-group">
                                         {% csrf_token %}
                                         {{form_Empl.as_p}}
-                                        <!--
-                                        <input type="text" class="form-control" id="nomEmpresa" placeholder="Nombre de la Empresa" title="Ingrese el nombre de la empresa.">
-                                        <input type="date" name="fechaEmpresa" id="inputFechaEmpresa" class="form-control" value="" required="required" title="Ingrese la fecha de constitución de la empresa.">
-                                        <select name="tipoEmpresa" id="inputTipoEmpresa" class="form-control" required="required" title="Seleccione el tipo de empresa correspondiente.">
-                                            <option value="">Forma Jurídica</option>
-                                            <option value="" title="Empresa Individual de Responsabilidad Limitada.">E.I.R.L</option>
-                                            <option value="" title="Sociedad de Responsabilidad Limitada.">S.R.L</optio>
-                                            <option value="" title="Sociedad Anónima de Suscripción Privada">S.A</option>
-                                        </select>
-                                        <input type="text" class="form-control" id="RNC" placeholder="RNC de la empresa" title="Ingrese RNC de la empresa.">
-                                        <input type="text" class="form-control" id="direccion" placeholder="Dirección de la empresa" title="Ingrese la dirección de la empresa.">
-                                        <input id="email" class="form-control" type="email" placeholder="Email" name="emailEmpresa" required="required" title="Ingrese el email de la empresa.">
-                                        <input id="password" class="form-control" type="password" placeholder="Contraseña" name="password" title="Ingrese una contraseña."required="required">
-                                        <input id="password_confirmation" class="form-control" type="password" placeholder="Repita su contraseña" name="password_confirmation" title="Confirme su contraseña"required="required">
-                                    -->
                                     </div>
                                     <button type="submit" class="btn btn-primary btn-enviar">Enviar</button>
                                 </form>

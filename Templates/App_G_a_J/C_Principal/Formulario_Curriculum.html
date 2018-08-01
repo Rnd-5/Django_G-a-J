@@ -51,28 +51,16 @@
         <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Ir a la sección de solicitantes">
           <a class="nav-link" href="P_Solicitantes.html">
             <i class="fa fa-fw fa-group"></i>
-            <span class="nav-link-text">Solicitantes</span>
+            
           </a>
         </li>
         <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Ir a la sección de ofertas de empleo">
-          <a class="nav-link" href="P_OfertasEmpleo.html">
+          <a class="nav-link" href="../p_e.html">
             <i class="fa fa-fw fa-briefcase"></i>
-            <span class="nav-link-text">Ofertas de empleo</span>
+            
           </a>
         </li>
       </ul>
-
-      <!--OCULTA_EL_NAVBAR(<)-->
-      <ul class="navbar-nav sidenav-toggler" id="">
-        <li class="nav-item">
-          <a class="nav-link text-center" id="sidenavToggler">
-            <i class="fa fa-fw fa-angle-left"  ></i>
-          </a>
-        </li>
-      </ul>
-
-      
-
       <!--BARRA-SUPERIOR-->
       <ul class="navbar-nav ml-auto">
 
@@ -199,58 +187,133 @@
         <li class="breadcrumb-item active">Navbar</li>
       </ol>
     -->
-
-      <h1 class="text-md-center">Formulario Currículum</h1>
+	</div>
+      <h1 class="text-md-center" id="titulo">Formulario Currículum</h1>
       <hr>
-      <div class="container-fluid cont_1">
-        <ul id="lista_1" style="text-align: center; justify-content: center;">
+      
+      	<div class="container cont_1"  >
+			<h3 id="titulo">Datos personales</h3>
+      		<div class="form-group row">
 
-          <h3>Información básica:</h3>
-          <li id="input_Form">
-            <label id="lbl_inpt">Teléfono: </label>
-            <input id="entradas" class="form-control entradas" type="text" placeholder="Número de teléfono" name="telefono" title="Ingrese su número teléfono" style="" >
-          </li>
-          <li id="input_Form">
-            <label id="lbl_inpt">Celular: </label>
-            <input id="entradas" class="form-control entradas" type="text" placeholder="Número de teléfono celular" name="telefono" title="Ingrese su número de teléfono celular" style="" >
-          </li>
-          <li id="input_Form">
-            <label id="lbl_inpt">Dirección: </label>
-            <input id="entradas" class="form-control entradas" type="text" placeholder="Dirección de domicilio" name="direccion" title="Ingrese su dirección" style="">
-          </li>
+			  <div class="col-xs-4" style="padding: 8px">
+			    <label for="ex1">Telefono</label>
+			    <input class="form-control" id="ex1" type="text">
+			  </div>
+			  <div class="col-xs-4" style="padding: 8px">
+			    <label for="ex2">Celular</label>
+			    <input class="form-control" id="ex2" type="text">
+			  </div>
+			  <div class="col-xs-4" style="padding: 8px">
+			    <label for="ex3">Telefono</label>
+			    <input class="form-control" id="ex3" type="text" >
+			  </div>
+			</div>
+			<div class="form-group row ">
 
-          <hr><!--SEPARADOR-->
+					<div class="col-xs-4" style="padding:  8px">
+						<label>Pais</label>
+					<select name="titulo" id="inputTitulo" class="form-control"  required="required" title="Seleccione el titulo adquirido." >
+				           <option value="" >Seleccione pais</option>
+				              <option value="" ">RD </option>
+				               <option value="" >PR</optio>
+				               <option value="" >US</option>
+				               <option value="" >Arabia</option>
+				               <option value="" >Spain</option>
+				               <option value="" >Rusia</option>
+		             </select>
+					
+					</div>
+					
+					<div class="col-xs-4" style="padding:  8px" >
+						<label  >Provincia:</label>
+						<select name="titulo" id="inputTitulo" class="form-control"  required="required" title="Seleccione el titulo adquirido." >
 
-          <h3>Formación académica:</h3>
-          <li id="input_Form">
-            <label id="lbl_inpt">Título profesional: </label>
-            <input  id="entradas" class="form-control entradas" type="text" name="titulo" required="required" title="Ingrese su título profesional." placeholder="Título profesional">
-          </li>
-          <li id="input_Form" class="aaa">
-            <label id="lbl_inpt">Fecha: </label>
-            <input type="text" name="" id="entradas" class="form-control entradas" required="required" title="Ingrese la fecha en que obtuvo su título profesional." placeholder="Fecha en que obtuvo su título profesional">
-          </li>
-          <li id="input_Form" style="padding-top: 4px;">
-            <label id="lbl_inpt">Institución: </label>
-            <input id="entradas" class="form-control entradas" type="text" placeholder="Institución donde estudio" name="institucion" title="Ingrese el nombre de la institución donde estudio" style="">
-          </li>
+				           <option value="" >Seleccione la provincia</option>
+				              <option value="" ">1</option>
+				               <option value="" >2</optio>
+				               <option value="" >0</option>
+				               <option value="" >3</option>
+				               <option value="" >4</option>
+				               <option value="" >5</option>
+				             </select>
+					</div>
+					<div class="col-xs-4" style="padding: 8px">
+			   		 	<label for="ex3">Direccion</label>
+			   		 	<input class="form-control" id="ex3" type="text" >
+			  		</div>
 
-          <li id="input_Form">
-            <label id="lbl_inpt">Otros estudios: </label>
-            <input  id="entradas" class="form-control entradas" type="text" name="otrosEstudios" required="required" title="Ingrese otros estudios realizados." placeholder="Otros estudios">
-          </li>
-          <li id="input_Form" class="aaa">
-            <label id="lbl_inpt">Fecha de otros estudios: </label>
-            <input type="text" name="" id="entradas" class="form-control entradas" required="required" title="Ingrese la fecha en que realizo dichos estudios." placeholder="Fecha en que lo realizó">
-          </li>
-          <li id="input_Form" style="padding-top: 4px;">
-            <label id="lbl_inpt">Institución: </label>
-            <input id="entradas" class="form-control entradas" type="text" placeholder="Institución donde lo realizó" name="institucion" title="Ingrese el nombre de la institución donde realizo dichos estudios" style="">
-          </li>
+			</div>
 
-          <hr><!--SEPARADOR-->
+			<hr><!--SEPARADOR-->
 
-          <h3>Experiencia laboral:</h3>
+			<h3 id="titulo">Educacion:</h3>
+			<div class="form-group row ">
+
+					<div class="col-xs-4" style="padding:  8px">
+						<label>Institucion</label>
+					<select name="titulo" id="inputTitulo" class="form-control"  required="required" title="Seleccione el titulo adquirido." >
+				           <option value="" >Seleccione su centro</option>
+				              <option value="" ">Ucateci </option>
+				               <option value="" >PMM</optio>
+				               <option value="" >Uapa</option>
+				               <option value="" >Intec</option>
+				               <option value="" >Utesa</option>
+				               <option value="" >O & M</option>
+		             </select>
+					
+					</div>
+					
+					<div class="col-xs-4" style="padding:  8px" >
+						<label  >Titulo:</label>
+						<select name="titulo" id="inputTitulo" class="form-control"  required="required" title="Seleccione el titulo adquirido." >
+
+				           <option value="" >Seleccione su titulo</option>
+				              <option value="" ">Ing. Sistemas </option>
+				               <option value="" >Ing.agronomo</optio>
+				               <option value="" >Abogado</option>
+				               <option value="" >Telematico</option>
+				               <option value="" >Ing.civil</option>
+				               <option value="" >Ing. Industrial</option>
+				             </select>
+					</div>
+
+					<div class="col-xs-6" style="padding:  8px" >
+						<label id="lbl_inpt">Fecha inicio: </label>
+			            <input type="date" name="" id="entradas" class="form-control" required="required" title="Ingrese la fecha en que inicio." placeholder="Fecha en que obtuvo su título profesional" >
+			          
+					</div>
+					<div class="col-xs-4" style="padding:  8px">
+						<label id="lbl_inpt">Fecha fin: </label>
+						<input  id="entradas" class="form-control " type="date" name="" required="required" title="Ingrese fecha en que obtuvo su titulo." >
+					</div>
+
+			</div>
+           
+			<hr><!--SEPARADOR-->
+			<div class="form-group row">
+				<div class="col-xs-4" style="padding:  8px">
+					<label id="lbl_inpt">Otros estudios: </label>
+            		<input  id="entradas" class="form-control" type="text" name="otrosEstudios" required="required" title="Ingrese otros estudios realizados." placeholder="Otros estudios">
+				</div>
+				
+          <div class="col-xs-6" style="padding:  8px" >
+				<label id="lbl_inpt">Fecha inicio: </label>
+			     <input type="date" name="" id="entradas" class="form-control" required="required" title="Ingrese la fecha en que inicio." placeholder="Fecha en que obtuvo su título profesional" >
+			          
+					</div>
+			<div class="col-xs-4" style="padding:  8px">
+				<label id="lbl_inpt">Fecha fin: </label>
+				<input  id="entradas" class="form-control " type="date" name="" required="required" title="Ingrese fecha en que obtuvo su titulo." >
+			</div>
+			<div class="col-xs-4" style="padding:  8px">
+				<label id="lbl_inpt">institucion: </label>
+            <input  id="entradas" class="form-control entradas" type="text" name="otrosEstudios" required="required" title="Ingrese la intitucion en que realizo esos estudios." placeholder="Intituto">
+			</div>
+          
+			</div>
+			<hr><!--SEPARADOR-->
+
+          <h3 id="titulo">Experiencia laboral:</h3>
           <li id="input_Form">
             <label id="lbl_inpt">Trabajo mas reciente: </label>
             <input  id="entradas" class="form-control entradas" type="text" name="trbjRenct" required="required" title="Ingrese su trabajo mas reciente." placeholder="Trabajo mas reciente">
@@ -282,40 +345,36 @@
           <li id="input_TxtArea" class="aaa">
             <textarea id="entradas" class="form-control entradas" required="required" title="Ingrese el período durante el que trabajó." placeholder="Descripción de la labor que desempeñaba"></textarea>
           </li>
+          		<hr><!--SEPARADOR-->
 
-          <hr><!--SEPARADOR-->
+          <h3 id="titulo">Habilidades laborales:</h3>
+          <div class="form-group row">
+          	<div class="col-xs-4" style="padding: 8px">
+          		<select name="titulo" id="inputTitulo" class="form-control"  required="required" title="Seleccione la habilidad desarrollada." >
 
-          <h3>Habilidades laborales:</h3>
-          <li id="input_TxtArea" class="aaa">
-            <textarea id="entradas" class="form-control entradas" required="required" title="Ingrese sus habilidades laborales." placeholder="Ingrese las habilidades que posee como profesional, que favorecen su desempeño laboral"></textarea>
+				           <option value="" >Seleccione la habilidas que posee</option>
+				              <option value="" ">Desarrollo web</option>
+				               <option value="" >Dase de datos</optio>
+				               <option value="" >ciberseguridad</option>
+				               <option value="" >Haking etico</option>
+				               <option value="" >Redes</option>
+				               <option value="" >java scrip</option>
+				               <option value="" >Otras habilidades</option>
+				             </select>
+          	</div>
+          	 <hr>
+          </div>
+         <li id="input_TxtArea" class="aaa">
+            <textarea id="entradas" class="form-control " required="required" title="." placeholder=" en caso de haber seleccionado otras Descripción la habilidad que tiene"></textarea>
           </li>
-
-          <hr><!--SEPARADOR-->
-
-          <h3>Objetivo profesional:</h3>
-          <li id="input_TxtArea" class="aaa">
-            <textarea id="entradas" class="form-control entradas" required="required" title="Ingrese su objetivo profesional." placeholder="Ingrese los ojetivos que tiene planteado como profesional"></textarea>
-          </li>
-
-        <!--
-          <li id="s"><input type="checkbox"> Persona Jurídica</li>
-          <li id="s"><input type="checkbox"> Entidad Gubernamental</li>
-          <li id="s"><input type="checkbox"> Consorcio</li>
-          <li id="s"><input type="checkbox"> Asociaciones sin fin de lucro</li>
-          <br>
-          <br>
-          <label style="float: left;"><strong>Provee:</strong></label>
-          <li id="s2"><input type="checkbox"> Cooperativa</li>
-          <li id="s2"><input type="checkbox"> Bienes</li>
-          <li id="s2"><input type="checkbox"> Servicios</li>
-          <li id="s2"><input type="checkbox"> Consultoría</li>
-          <li id="s2"><input type="checkbox"> Obras</li>
-          <br>
-        -->
-          
-
-        </ul>
-      </div>
+         <br>
+         
+         
+		<button type="submit" class="btn btn-primary btn-enviar">Enviar</button>
+      	</div>
+      	
+      
+ 
       
       
     </div>

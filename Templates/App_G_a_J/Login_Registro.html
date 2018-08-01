@@ -12,13 +12,13 @@
          body{
         background:#8ba987 url('{% static 'Imagenes/Fondo.jpg' %}');
         background-size:100% 100%;
-        }  
+        }
     </style>
-	
+
     <link rel="stylesheet"  href="{% static 'bootstrap3/css/bootstrap.css' %}" />
     <link rel="stylesheet" type="text/css" href="{% static 'css/estilos.css' %}">
 	<link rel="stylesheet" href="{% static 'css/login-register.css' %}"/>
-	
+
 	<script src="{% static 'jquery/jquery-1.10.2.js' %}" type="text/javascript"></script>
 	<script src="{% static 'bootstrap3/js/bootstrap.js' %}" type="text/javascript"></script>
 	<script src="{% static 'js/login-register.js' %}" type="text/javascript"></script>
@@ -29,12 +29,12 @@
         <div class="modal-dialog login animated" id="loginModal">
             <div class="modal-content">
                 <div class="modal-header">
-                    <div class="modal-body">  
+                    <div class="modal-body">
                         <div class="box">
                             <div class="content">
                                 <div class="form loginBox">
                                     <center><img src="{% static 'Imagenes/Logo.png' %}" id="Logo" alt="Get a Job" /></center>
-                                    
+
                                     <form method="post" action="/login" accept-charset="UTF-8">
                                         <input id="email" class="form-control" type="text" placeholder="Email" name="username" required="required">
                                         <input id="password" class="form-control" type="password" placeholder="Contraseña" name="password" required="required">
@@ -50,7 +50,7 @@
                         <div class="content registerBox" style="display:none;">
                             <div class="form">
                                 <h2 id="tituloRegistro">Registrarse como:</h2>
-                                
+
                                 <a class="btn btn-primary btn-Solicitante" href="javascript: showRegisterForm_Solicitante();">Solicitante</a>
 
                                 <a class="btn btn-primary btn-Empleador" href="javascript: showRegisterForm_Empleador();" role="button">Empleador</a>
@@ -65,21 +65,10 @@
                                 <form action="" method="POST" role="form">
                                     <!--<legend>Regitro de solicitantes</legend>-->
                                     <h2 id="tituloRegS">Registro de solicitantes</h2>
-                                    
+
                                     <div class="form-group">
-                                        <input id="nombre" class="form-control" type="text" placeholder="Nombre" name="nombre" title="Ingrese su nombre" value="{{solicitante.Nombre}}">
-                                        <input id="apellido" class="form-control" type="text" placeholder="Apellido" name="apellido" title="Ingrese su apellido." value="{{solicitante.Apellido}}">
-                                        <input type="date" name="" id="fechaNaci" class="form-control" value="" required="required" title="Ingrese su fecha de nacimeinto." value="{{solicitante.Fecha_Nac}}">
-                                        <select name="genero" id="genero" class="form-control Genero" required="required" title="Seleccione el genero correspondiente" value="{{solicitante.Sexo}}">
-                                            <option value="">Seleccione su sexo</option>
-                                            <option value="">Masculino</option>
-                                            <option value="">Femenino</option>
-                                        </select>
-                                        <input class="form-control" type="text" name="" value="" required="required" placeholder="Cédula de Indentidad" id="cedula" value="{{solicitante.Cedula}}">
-                                        <input id="email" class="form-control" type="email" placeholder="Email" name="email" required="required" title="Ingrese su email." style="width: 47%; float: right;" value="{{solicitante.Email}}">
-                                        <!--<input id="email" type="email" name="email" value="" placeholder="E-mail"> -->
-                                        <input id="password" class="form-control" type="password" placeholder="Contraseña" name="password" title="Ingrese una contraseña."required="required" value="{{solicitante.Contr}}">
-                                        <input id="password_confirmation" class="form-control" type="password" placeholder="Repita su contraseña" name="password_confirmation" title="Confirme su contraseña"required="required">
+                                        {% csrf_token %}
+                                        {{form_Solct.as_p}}
                                     </div>
                                     <button type="submit" class="btn btn-primary btn-enviar">Enviar</button>
                                 </form>
@@ -91,38 +80,27 @@
                             <div class="form">
                                 <form action="" method="POST" role="form">
                                     <h2 id="tituloRegE">Registro de empleadores</h2>
-                                    
+
                                     <div class="form-group">
-                                        <input type="text" class="form-control" id="nomEmpresa" placeholder="Nombre de la Empresa" title="Ingrese el nombre de la empresa.">
-                                        <input type="date" name="fechaEmpresa" id="inputFechaEmpresa" class="form-control" value="" required="required" title="Ingrese la fecha de constitución de la empresa.">
-                                        <select name="tipoEmpresa" id="inputTipoEmpresa" class="form-control" required="required" title="Seleccione el tipo de empresa correspondiente.">
-                                            <option value="">Forma Jurídica</option>
-                                            <option value="" title="Empresa Individual de Responsabilidad Limitada.">E.I.R.L</option>
-                                            <option value="" title="Sociedad de Responsabilidad Limitada.">S.R.L</optio>
-                                            <option value="" title="Sociedad Anónima de Suscripción Privada">S.A</option>
-                                        </select>
-                                        <input type="text" class="form-control" id="RNC" placeholder="RNC de la empresa" title="Ingrese RNC de la empresa.">
-                                        <input type="text" class="form-control" id="direccion" placeholder="Dirección de la empresa" title="Ingrese la dirección de la empresa.">
-                                        <input id="email" class="form-control" type="email" placeholder="Email" name="emailEmpresa" required="required" title="Ingrese el email de la empresa.">
-                                        <input id="password" class="form-control" type="password" placeholder="Contraseña" name="password" title="Ingrese una contraseña."required="required">
-                                        <input id="password_confirmation" class="form-control" type="password" placeholder="Repita su contraseña" name="password_confirmation" title="Confirme su contraseña"required="required">
+                                        {% csrf_token %}
+                                        {{form_Empl.as_p}}
                                     </div>
                                     <button type="submit" class="btn btn-primary btn-enviar">Enviar</button>
                                 </form>
                             </div>
                         </div>
                     </div>
-                    
+
                     <div class="modal-footer">
                         <div class="forgot login-footer">
-                            <span>Necesitas 
+                            <span>Necesitas
                                 <a href="javascript: showRegisterForm();">Crear una cuenta</a>
                             ?</span>
                         </div>
                         <div class="forgot register-footer" style="display:none">
                             <!--<hr>-->
                             <span>Ya tienes una cuenta?</span>
-                            <a href="js/javascript: showLoginForm();">Iniciar sesion</a>
+                            <a href="javascript: showLoginForm();">Iniciar sesion</a>
                         </div>
                     </div>
                 </div>

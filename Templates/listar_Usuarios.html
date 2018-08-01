@@ -1,0 +1,35 @@
+{% extends 'base.html' %}
+
+{% block body %}
+<table border="3">
+    <thead>
+        <tr>
+            <td>Cedula</td>
+            <td>Nombre</td>
+            <td>Apellido</td>
+            <td>Sexo</td>
+            <td>Fecha_Nacimiento</td>
+            <td>Email</td>
+            <td>Clave</td>
+            <td>Estado</td>
+        </tr>
+    </thead>
+    <tbody>
+        {% if solicitantes %}
+        {% for solicitante in solicitantes %}
+        <tr>
+            <td>{{ solicitante.Cedula }}</td>
+            <td>{{ solicitante.Nombre }}</td>
+            <td>{{ solicitante.Apellido }}</td>
+            <td>{{ solicitante.Sexo }}</td>
+            <td>{{ solicitante.Fecha_Nacimiento }}</td>
+            <td>{{ solicitante.Email }}</td>
+            <td>{{ solicitante.Clave }}</td>
+            <td>{{ solicitante.Estado }}</td>
+        </tr>
+        {% endfor %}
+        {% endif %}
+    </tbody>
+</table>
+
+{% endblock %}

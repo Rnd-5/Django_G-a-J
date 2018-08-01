@@ -9,6 +9,8 @@ urlpatterns = [
     url(r'^c_Solicitante', crearSolicitante, name='c_Solicitante'),
     url(r'^c_Empleador', crearEmpleador, name='c_Empleador'),
     url(r'^c_Oferta', login_required(crearOferta), name='c_Oferta'),
-    url(r'^PagP/', login_required(PagP), name='PagP')
+    url(r'^PagP/', login_required(PagP), name='PagP'),
+    url(r'^l_Solicitante/', list_Solicitantes, name='l_Solicitante'),
+    #url(r'^c_Usuario/', CrearUsuario.as_view(), name='c_Usuario'),
 ]
 
