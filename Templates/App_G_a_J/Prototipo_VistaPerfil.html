@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-
+{% load staticfiles %}
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,28 +9,29 @@
   <meta name="author" content="">
   <title>Get-a-Job/Pag. Principal</title>
   <!-- Bootstrap core CSS-->
-  <link href="C_Principal/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="{% static 'C_Principal/vendor/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">
   <!-- Custom fonts for this template-->
-  <link href="C_Principal/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-  <link rel="stylesheet" type="text/css" href="css/estilos.css">
+  <link href="{% static 'C_Principal/vendor/font-awesome/css/font-awesome.min.css' %}" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" type="text/css" href="{% static 'css/estilos.css' %}">
   <!-- Custom fonts for this template -->
   <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:100,200,300,400,500,600,700,800,900" rel="stylesheet">
 
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
-  <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
-  <link href="vendor/devicons/css/devicons.min.css" rel="stylesheet">
-  <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
+  <link href="{% static 'vendor/font-awesome/css/font-awesome.min.css' %}" rel="stylesheet">
+  <link href="{% static 'vendor/devicons/css/devicons.min.css' %}" rel="stylesheet">
+  <link href="{% static 'vendor/simple-line-icons/css/simple-line-icons.css' %}" rel="stylesheet">
   <!-- Custom styles for this template-->
-  <link href="css/vistaperfil.css" rel="stylesheet">
-  <link href="css/resume.min.css" rel="stylesheet">
+  <link href="{% static 'css/vistaperfil.css' %}" rel="stylesheet">
+  <link href="{% static 'css/resume.min.css' %}" rel="stylesheet">
 
 </head>
 
 <body class="fixed-nav sticky-footer" id="page-top" style="background-color: #ebedef;">
+{% csrf_token %}
   <!-- Navigation-->
   <nav class="navbar navbar-expand-lg navbar-dark bg-company-red fixed-top" id="mainNav" style="background-color: #424949;">
-    <a class="navbar-brand" href="C_Principal/PagP.html" data-toggle="tooltip" title="Ir a la página principal de Get a Job">
-      <img src="C_Principal/LogoF.png" alt="LogoF"/>
+    <a class="navbar-brand" href="../../App_Get_a_Job/PagP0/" data-toggle="tooltip" title="Ir a la página principal de Get a Job">
+      <img src="{% static 'C_Principal/LogoF.png' %}" alt="LogoF"/>
       Get a Job 
     </a>
 
@@ -58,10 +59,10 @@
       </ul>
 
       <!--BARRA-LATERAL-->
-      <ul class="navbar-nav navbar-sidenav" id="exampleAccordion" ">
+      <ul class="navbar-nav navbar-sidenav" id="exampleAccordion ">
         <a class="navbar-brand js-scroll-trigger" href="#page-top" id="iPerfil">
           <span class="d-none d-lg-block">
-            <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/I_perfil.png" id="iPerfil">
+            <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="{% static 'img/I_perfilS.png' %}" id="iPerfil">
           </span>
         </a>
     
@@ -81,7 +82,7 @@
         <li class="nav-item" data-placement="right">
           <a class="nav-link js-scroll-trigger" href="#education">
             <i class="fa fa-fw fa-book"></i>
-            <span class="nav-link-text">Educacion</span></a>
+            <span class="nav-link-text">Educación</span></a>
         </li>
         <li class="nav-item" data-placement="right">
           <a class="nav-link js-scroll-trigger" href="#skills">
@@ -206,7 +207,7 @@
 
         <!--ICONO-PERFIL-->
         <li class="nav-item">
-          <a class="nav-link" href="Prototipo_VistaPerfil.html">
+          <a class="nav-link" href="../../App_Get_a_Job/PerfilSolct/">
             <i class="fa fa-fw fa-user" data-toggle="tooltip" title="Ir a mi perfil"></i>
             <span class="d-lg-none">Mi Perfil</span>
           </a>
@@ -384,15 +385,15 @@
       <div class="modal-dialog" role="document">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLabel">Ready to Leave?</h5>
+            <h5 class="modal-title" id="exampleModalLabel">Listo para irte?</h5>
             <button class="close" type="button" data-dismiss="modal" aria-label="Close">
               <span aria-hidden="true">×</span>
             </button>
           </div>
-          <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
+          <div class="modal-body">Seleccione "Cerrar Sesión" si está listo para salir de sus sesión.</div>
           <div class="modal-footer">
             <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
-            <a class="btn btn-primary" href="login.html">Logout</a>
+            <a class="btn btn-primary" href="login.html">Cerrar Sesión</a>
           </div>
         </div>
       </div>
@@ -405,7 +406,7 @@
     <-- Core plugin JavaScript->
     <script src="C_Principal/vendor/jquery-easing/jquery.easing.min.js"></script>-->
     <!-- Custom scripts for all pages-->
-    <script src="C_Principal/js/sb-admin.min.js"></script>
+    <script src="{% static 'C_Principal/js/sb-admin.min.js' %}"></script>
     <!-- Custom scripts for this page-->
     <!-- Toggle between fixed and static navbar-->
     <script>
@@ -426,14 +427,14 @@
   </div>
 
   <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="{% static 'vendor/jquery/jquery.min.js' %}"></script>
+    <script src="{% static 'vendor/bootstrap/js/bootstrap.bundle.min.js' %}"></script>
 
     <!-- Plugin JavaScript -->
-    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+    <script src="{% static 'vendor/jquery-easing/jquery.easing.min.js' %}"></script>
 
     <!-- Custom scripts for this template -->
-    <script src="js/resume.min.js"></script>
+    <script src="{% static 'js/resume.min.js' %}"></script>
 </body>
 
 </html>

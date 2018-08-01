@@ -1,7 +1,14 @@
 # coding=utf-8
 from django import forms
 from .models import *
+from .models import Curriculum
 
+class LoginForm(forms.ModelForm):
+    fields = ['email', 'password']
+    widgets = {
+        'email': forms.EmailInput(),
+        'password': forms.PasswordInput()
+    }
 
 class SolicitanteForm(forms.ModelForm):
     class Meta:
@@ -227,6 +234,352 @@ class OfertasForm(forms.ModelForm):
                     'Estado': forms.TextInput(),
                     'Empleadores_RNC': forms.Select()
                   }
+
+
+class CurriculumForm(forms.ModelForm):
+    class Meta:
+        model = Curriculum
+        fields = [
+            'Cod_Curriculum',
+            'Telefono',
+            'Celular',
+            'Pais',
+            'Provincia',
+            'Direccion',
+            'Institucion',
+            'Titulo',
+            'Fecha_InicioC',
+            'Fecha_FinC',
+            'Otro_Estd',
+            'Fecha_IniEstd',
+            'Fecha_FinEstd',
+            'InstOtrEsd',
+            'Trabajo_Rect',
+            'InstTrbj',
+            'PeriodoTrbj',
+            'DescripTrbj',
+            'OtroTrbj',
+            'InstOtrTrbj',
+            'PeriodoOtrTrbj',
+            'DescripOtrTrbj',
+            'HabLab1',
+            'HabLab2',
+            'ObjetivoProf',
+            'Cedula_Solct'
+        ]
+
+        labels = {
+            'Cod_Curriculum': 'Cod_Curriculum',
+            'Telefono': 'Telefono',
+            'Celular': 'Celular',
+            'Pais': 'Pais',
+            'Provincia': 'Provincia',
+            'Direccion': 'Direccion',
+            'Institucion': 'Institucion',
+            'Titulo': 'Titulo',
+            'Fecha_InicioC': 'Fecha_InicioC',
+            'Fecha_FinC': 'Fecha_FinC',
+            'Otro_Estd':'Otro_Estd',
+            'Fecha_IniEstd': 'Fecha_IniEstd',
+            'Fecha_FinEstd': 'Fecha_FinEstd',
+            'InstOtrEsd': 'InstOtrEsd',
+            'Trabajo_Rect':'Trabajo_Rect',
+            'InstTrbj':'InstTrbj',
+            'PeriodoTrbj':'PeriodoTrbj',
+            'DescripTrbj':'DescripTrbj',
+            'OtroTrbj':'OtroTrbj',
+            'InstOtrTrbj':'InstOtrTrbj',
+            'PeriodoOtrTrbj':'PeriodoOtrTrbj',
+            'DescripOtrTrbj':'DescripOtrTrbj',
+            'HabLab1':'HabLab1',
+            'HabLab2':'HabLab2',
+            'ObjetivoProf':'ObjetivoProf',
+            'Cedula_Solct': 'Cedula_Solct'
+        }
+
+        widgets = {
+            'Cod_Curriculum': forms.NumberInput(attrs={'class': 'form-control'}),
+            'Telefono':  forms.NumberInput(attrs={'class': 'form-control'}),
+            'Celular': forms.NumberInput(attrs={'class': 'form-control'}),
+            'Pais': forms.Select(attrs={'class': 'form-control'}),
+            'Provincia': forms.Select(attrs={'class': 'form-control'}),
+            'Direccion': forms.TextInput(attrs={'class': 'form-control'}),
+            'Institucion': forms.Select(attrs={'class': 'form-control'}),
+            'Titulo': forms.Select(attrs={'class': 'form-control'}),
+            'Fecha_InicioC': forms.DateInput(attrs={'class': 'form-control'}),
+            'Fecha_FinC': forms.DateInput(attrs={'class': 'form-control'}),
+            'Otro_Estd': forms.Select(attrs={'class': 'form-control'}),
+            'Fecha_IniEstd': forms.DateInput(attrs={'class': 'form-control'}),
+            'Fecha_FinEstd': forms.DateInput(attrs={'class': 'form-control'}),
+            'InstOtrEsd': forms.Select(attrs={'class': 'form-control'}),
+            'Trabajo_Rect': forms.TextInput(attrs={'class': 'form-control'}),
+            'InstTrbj': forms.TextInput(attrs={'class': 'form-control'}),
+            'PeriodoTrbj': forms.NumberInput(attrs={'class': 'form-control'}),
+            'DescripTrbj': forms.Textarea(attrs={'class': 'form-control'}),
+            'OtroTrbj': forms.TextInput(attrs={'class': 'form-control'}),
+            'InstOtrTrbj': forms.TextInput(attrs={'class': 'form-control'}),
+            'PeriodoOtrTrbj': forms.NumberInput(attrs={'class': 'form-control'}),
+            'DescripOtrTrbj': forms.Textarea(attrs={'class': 'form-control'}),
+            'HabLab1': forms.Select(attrs={'class': 'form-control'}),
+            'HabLab2': forms.Select(attrs={'class': 'form-control'}),
+            'ObjetivoProf': forms.Textarea(attrs={'class': 'form-control'}),
+            'Cedula_Solct': forms.Select(attrs={'class': 'form-control'})
+        }
+
+
+
+"""
+class CurriculumForm(forms.ModelForm):
+    class Meta:
+        model = Empleadores
+        fields = [ 'Cod_Curriculum', 'Telefono', 'Celular', 'Pais', 'Provincia', 'Direccion', 'Institucion', 'Titulo', 'Fecha_InicioC', 'Fecha_FinC', 'Otro_Estd', 'Fecha_IniEstd', 'Fecha_FinEstd', 'InstOtrEsd', 'Trabajo_Rect', 'InstTrbj', 'PeriodoTrbj', 'DescripTrbj', 'OtroTrbj', 'InstOtrTrbj', 'PeriodoOtrTrbj', 'DescripOtrTrbj', 'HabLab1', 'HabLab2', 'ObjetivoProf', 'Cedula_Solct']
+        labels = {
+                'Cod_Curriculum': 'Cod_Curriculum',
+                'Telefono': 'Telefono',
+                'Celular': 'Celular',
+                'Pais': 'Pais',
+                'Provincia': 'Provincia',
+                'Direccion': 'Direccion',
+                'Institucio': 'Institucio',
+                'Titulo': 'Titulo',
+                'Fecha_Inicio': 'Fecha_Inicio',
+                'Fecha_Fin': 'Fecha_Fin',
+                'Otro_Estd': 'Otro_Estd',
+                'Fecha_IniEstd': 'Fecha_IniEstd',
+                'Fecha_FinEstd': 'Fecha_FinEstd',
+                'InstOtrEsd': 'InstOtrEsd',
+                'Trabajo_Rect': 'Trabajo_Rect',
+                'InstTrbj': 'InstTrbj',
+                'PeriodoTrbj': 'PeriodoTrbj',
+                'DescripTrbj': 'DescripTrbj',
+                'OtroTrbj': 'OtroTrbj',
+                'InstOtrTrbj': 'InstOtrTrbj',
+                'PeriodoOtrTrbj': 'PeriodoOtrTrbj',
+                'DescripOtrTrbj': 'DescripOtrTrbj',
+                'HabLab1': 'HabLab1',
+                'HabLab2': 'HabLab2',
+                'ObjetivoProf': 'ObjetivoProf'
+                }
+
+        widgets = {
+                'Cod_Curriculum': forms.NumberInput(attrs={}),
+                'Telefono': forms.NumberInput(attrs={
+                        'class': "form-control",
+                        'id': "ex2",
+                        'type': "number",
+                        'placeholder': 'Ingrese sun numero de telefono',
+                        'style': 'display: block, width: 100%, padding: .375rem .75rem, font-size: 1rem, line-height: 1.5, color: #495057, background-color: #fff, background-clip: padding-box, border: 1px solid #ced4da, border-radius: .25rem'
+
+                }),
+
+                'Celular': forms.NumberInput(attrs={
+
+                        'class':"form-control",
+                        'id':"ex2",
+                        'type':"number",
+                        'placeholder': 'Ingrese sun numero de celular',
+                        'style': 'display: block, width: 100%, padding: .375rem .75rem, font-size: 1rem, line-height: 1.5, color: #495057, background-color: #fff, background-clip: padding-box, border: 1px solid #ced4da, border-radius: .25rem'
+                    }),
+
+                'Pais': forms.Select(attrs={
+                        'name': "titulo" ,
+                        'id': "inputTitulo" ,
+                        'class': "form-control",
+                        'required': "required" ,
+                        'title': "Seleccione un pais."
+                    }),
+
+                'Provincia': forms.Select(attrs={
+                        'name': "titulo",
+                        'id': "inputTitulo",
+                        'class': "form-control",
+                        'required': "required",
+                        'title' :"Seleccione el titulo adquirido."
+                    }),
+
+                'Direccion': forms.TextInput(attrs={
+                         'class': "form-control",
+                         'id': "ex3",
+                         'type': "text",
+                    }),
+
+                'Institucion': forms.Select(attrs={
+                    'name': "titulo",
+                    'id': "inputTitulo",
+                    'class': "form-control" ,
+                    'required': "required" ,
+                    'title': "Seleccione institucion donde estudio."
+            }),
+
+                'Titulo': forms.TextInput(attrs={
+                        'name': "titulo",
+                        'id': "inputTitulo",
+                        'class': "form-control" ,
+                        'required': "required" ,
+                        'title': "Seleccione el titulo adquirido."
+                    }),
+
+                'Fecha_InicioC': forms.DateInput(attrs={
+                       'name': "",
+                       'id': "entradas",
+                       'class': "form-control",
+                       'required': "required",
+                       'title': "Ingrese la fecha en que inicio.",
+                       'placeholder': "Fecha en que obtuvo su título profesional",
+                       'type': "date"
+                }),
+
+                'Fecha_FinC': forms.DateInput(attrs={
+                        'name': "",
+                        'id': "entradas",
+                        'class': "form-control",
+                        'required': "required",
+                        'title': "Ingrese la fecha en que inicio.",
+                        'placeholder': "Fecha en que obtuvo su título profesional",
+                        'type': "date"
+                }),
+
+                'Otro_Estd': forms.Select(attrs={
+                        'id':"entradas",
+                        'class':"form-control",
+                        'name':"otrosEstudios",
+                        'required':"required",
+                        'title':"Ingrese otros estudios realizados.",
+                        'placeholder':"Otros estudios" ,
+                        'type': "select"
+                }),
+
+                'Fecha_IniEstd': forms.DateInput(attrs={
+                    'name': "",
+                    'id': "entradas",
+                    'class': "form-control",
+                    'required': "required",
+                    'title': "Ingrese la fecha en que inicio.",
+                    'placeholder': "Fecha en que obtuvo su título profesional",
+                    'type': "date"
+                }),
+
+                'Fecha_FinEstd': forms.DateInput(attrs={
+                    'name': "tipoEmpresa",
+                    'id': "inputTipoEmpresa",
+                    'class': "form-control",
+                    'required': "required",
+                    'title': "Seleccione el tipo de empresa correspondiente."
+                }),
+
+                'InstOtrEsd': forms.Select(attrs={
+                    'type': "text",
+                    'class': "form-control",
+                    'id': "RNC",
+                    'placeholder': "RNC de la empresa",
+                    'title': "Ingrese RNC de la empresa.",
+                }),
+
+                'Trabajo_Rect': forms.TextInput(attrs={
+                        'id':"entradas" ,
+                        'class':"form-control entradas" ,
+                        'name':"trbjRenct" ,
+                        'required':"required" ,
+                        'title':"Ingrese su trabajo mas reciente." ,
+                        'placeholder':"Trabajo mas reciente",
+                        'type': "text"
+                }),
+
+                'InstTrbj': forms.TextInput(attrs={
+                        'id':"entradas",
+                        'class': "form-control entradas",
+                        'placeholder':"Institución donde trabajó",
+                        'name': "instTrbjR",
+                        'title':"Ingrese el nombre de la institución donde trabajó.",
+                        'style':"",
+                        'type':"text"
+                }),
+
+                'PeriodoTrbj': forms.NumberInput(attrs={
+                        'name': "",
+                        'id': "entradas",
+                        'class ': "form-control entradas",
+                        'required': "required",
+                        'title': "Ingrese el período durante el que trabajó.",
+                        'placeholder': "Período en que trabajó",
+                        'type': "number"
+                }),
+
+                'DescripTrbj': forms.Textarea(attrs={
+                        'id':  "entradas",
+                        'class': "form-control entradas" ,
+                        'required': "required" ,
+                        'title': "Ingrese el período durante el que trabajó." ,
+                        'placeholder': "Descripción de la labor que desempeñaba",
+                }),
+
+                'OtroTrbj': forms.TextInput(attrs={
+                        'id ':  "entradas",
+                        'class ': "form-control entradas" ,
+                        'name': "OtrbjRenct" ,
+                        'required': "required" ,
+                        'title': "Ingrese otro trabajo." ,
+                        'placeholder': "Otros trabajos" ,
+                        'type': "text"
+                }),
+
+                'InstOtrTrbj': forms.TextInput(attrs={
+                        'id': "entradas",
+                        'class': "form-control entradas",
+                        'placeholder': "Institución donde trabajó",
+                        'name': "instTrbjR",
+                        'title': "Ingrese el nombre de la institución donde trabajó.",
+                        'style': "",
+                        'type': "text"
+                }),
+
+                'PeriodoOtrTrbj': forms.NumberInput(attrs={
+                            'name': "",
+                            'id': "entradas",
+                            'class ': "form-control entradas",
+                            'required': "required",
+                            'title': "Ingrese el período durante el que trabajó.",
+                            'placeholder': "Período en que trabajó",
+                            'type': "number"
+                }),
+
+                'DescripOtrTrbj': forms.Textarea(attrs={
+                        'id': "entradas",
+                        'class': "form-control entradas",
+                        'required': "required",
+                        'title': "Ingrese el período durante el que trabajó.",
+                        'placeholder': "Descripción de la labor que desempeñaba",
+                }),
+
+                'HabLab1': forms.Select(attrs={
+                        'name':  "titulo",
+                        'id':  "inputTitulo",
+                        'class': "form-control" ,
+                        'required': "required" ,
+                        'title': "Seleccione la habilidad desarrollada.",
+                }),
+                'HabLab2': forms.Select(attrs={
+                        'name': "titulo",
+                        'id': "inputTitulo",
+                        'class': "form-control",
+                        'required': "required",
+                        'title': "Seleccione la habilidad desarrollada.",
+                }),
+
+                'ObjetivoProf': forms.Textarea(attrs={
+                        'id': "entradas",
+                        'class': "form-control entradas",
+                        'required': "required",
+                        'title': "Ingrese el objetivo que lo motiva a buscar trabajo.",
+                        'placeholder': "Describa su objetivo profesional",
+                }),
+
+                'Cedula_Solct': forms.Select(attrs={
+                    'placeholder': 'hola'})
+                }
+"""
+
+
 
 
 

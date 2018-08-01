@@ -5,30 +5,488 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="af14b983-d1db-46d5-afc9-afa20e47b14b" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/Apps/App_Get_a_Job/static/img/I_perfil2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Crear_Usuario/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Crear_Usuario/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Crear_Usuario/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Crear_Usuario/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Crear_Usuario/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Crear_Usuario/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Crear_Usuario/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Crear_Usuario/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto_Final_BD.sqlite3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/C_Principal/Perfiles.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/C_Principal/css/body.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/C_Principal/css/estilosFormulario.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/C_Principal/css/sb-admin.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/C_Principal/css/sb-admin.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/C_Principal/js/sb-admin-charts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/C_Principal/js/sb-admin-charts.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/C_Principal/js/sb-admin-datatables.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/C_Principal/js/sb-admin-datatables.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/C_Principal/js/sb-admin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/C_Principal/js/sb-admin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/C_Principal/pug/blank.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/C_Principal/pug/cards.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/C_Principal/pug/charts.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/C_Principal/pug/forgot-password.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/C_Principal/pug/includes/css/core.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/C_Principal/pug/includes/css/custom.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/C_Principal/pug/includes/footer.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/C_Principal/pug/includes/js/core.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/C_Principal/pug/includes/js/custom.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/C_Principal/pug/includes/modals/logout.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/C_Principal/pug/includes/navbar.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/C_Principal/pug/includes/scroll-to-top.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/C_Principal/pug/index.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/C_Principal/pug/login.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/C_Principal/pug/navbar.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/C_Principal/pug/register.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/C_Principal/pug/tables.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/C_Principal/scss/_cards.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/C_Principal/scss/_footer.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/C_Principal/scss/_global.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/C_Principal/scss/_login.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/C_Principal/scss/_mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/C_Principal/scss/_utilities.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/C_Principal/scss/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/C_Principal/scss/navbar/_navbar_colors.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/C_Principal/scss/navbar/_navbar_fixed.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/C_Principal/scss/navbar/_navbar_global.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/C_Principal/scss/navbar/_navbar_static.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/C_Principal/scss/navbar/_navbar_toggle.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/C_Principal/scss/sb-admin.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/C_Principal/vendor/bootstrap/css/bootstrap-grid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/C_Principal/vendor/bootstrap/css/bootstrap-grid.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/C_Principal/vendor/bootstrap/css/bootstrap-reboot.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/C_Principal/vendor/bootstrap/css/bootstrap-reboot.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/C_Principal/vendor/bootstrap/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/C_Principal/vendor/bootstrap/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/C_Principal/vendor/bootstrap/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/C_Principal/vendor/bootstrap/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/C_Principal/vendor/bootstrap/js/bootstrap.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/C_Principal/vendor/bootstrap/js/bootstrap.bundle.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/C_Principal/vendor/bootstrap/js/bootstrap.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/C_Principal/vendor/bootstrap/js/bootstrap.bundle.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/C_Principal/vendor/bootstrap/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/C_Principal/vendor/bootstrap/js/bootstrap.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/C_Principal/vendor/bootstrap/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/C_Principal/vendor/bootstrap/js/bootstrap.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/C_Principal/vendor/chart.js/Chart.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/C_Principal/vendor/chart.js/Chart.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/C_Principal/vendor/chart.js/Chart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/C_Principal/vendor/chart.js/Chart.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/C_Principal/vendor/datatables/dataTables.bootstrap4.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/C_Principal/vendor/datatables/dataTables.bootstrap4.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/C_Principal/vendor/datatables/jquery.dataTables.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/C_Principal/vendor/font-awesome/css/font-awesome.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/C_Principal/vendor/font-awesome/css/font-awesome.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/C_Principal/vendor/font-awesome/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/C_Principal/vendor/font-awesome/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/C_Principal/vendor/font-awesome/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/C_Principal/vendor/font-awesome/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/C_Principal/vendor/font-awesome/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/C_Principal/vendor/font-awesome/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/C_Principal/vendor/font-awesome/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/C_Principal/vendor/font-awesome/less/animated.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/C_Principal/vendor/font-awesome/less/bordered-pulled.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/C_Principal/vendor/font-awesome/less/core.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/C_Principal/vendor/font-awesome/less/fixed-width.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/C_Principal/vendor/font-awesome/less/font-awesome.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/C_Principal/vendor/font-awesome/less/icons.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/C_Principal/vendor/font-awesome/less/larger.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/C_Principal/vendor/font-awesome/less/list.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/C_Principal/vendor/font-awesome/less/mixins.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/C_Principal/vendor/font-awesome/less/path.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/C_Principal/vendor/font-awesome/less/rotated-flipped.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/C_Principal/vendor/font-awesome/less/screen-reader.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/C_Principal/vendor/font-awesome/less/stacked.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/C_Principal/vendor/font-awesome/less/variables.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/C_Principal/vendor/font-awesome/scss/_animated.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/C_Principal/vendor/font-awesome/scss/_bordered-pulled.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/C_Principal/vendor/font-awesome/scss/_core.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/C_Principal/vendor/font-awesome/scss/_fixed-width.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/C_Principal/vendor/font-awesome/scss/_icons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/C_Principal/vendor/font-awesome/scss/_larger.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/C_Principal/vendor/font-awesome/scss/_list.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/C_Principal/vendor/font-awesome/scss/_mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/C_Principal/vendor/font-awesome/scss/_path.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/C_Principal/vendor/font-awesome/scss/_rotated-flipped.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/C_Principal/vendor/font-awesome/scss/_screen-reader.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/C_Principal/vendor/font-awesome/scss/_stacked.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/C_Principal/vendor/font-awesome/scss/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/C_Principal/vendor/font-awesome/scss/font-awesome.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/C_Principal/vendor/jquery-easing/jquery.easing.compatibility.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/C_Principal/vendor/jquery-easing/jquery.easing.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/C_Principal/vendor/jquery-easing/jquery.easing.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/C_Principal/vendor/jquery/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/C_Principal/vendor/jquery/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/C_Principal/vendor/jquery/jquery.min.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/C_Principal/vendor/jquery/jquery.slim.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/C_Principal/vendor/jquery/jquery.slim.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/C_Principal/vendor/jquery/jquery.slim.min.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/Pempresa/LogoF.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/Pempresa/css/estilos.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/Pempresa/css/login-register.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/Pempresa/css/resume.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/Pempresa/css/resume.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/Pempresa/css/vistaperfil.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/Pempresa/img/I_perfil.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/Pempresa/img/profile.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/Pempresa/js/login-register.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/Pempresa/js/resume.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/Pempresa/js/resume.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/Pempresa/vendor/bootstrap/css/bootstrap-grid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/Pempresa/vendor/bootstrap/css/bootstrap-grid.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/Pempresa/vendor/bootstrap/css/bootstrap-reboot.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/Pempresa/vendor/bootstrap/css/bootstrap-reboot.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/Pempresa/vendor/bootstrap/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/Pempresa/vendor/bootstrap/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/Pempresa/vendor/bootstrap/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/Pempresa/vendor/bootstrap/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/Pempresa/vendor/bootstrap/js/bootstrap.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/Pempresa/vendor/bootstrap/js/bootstrap.bundle.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/Pempresa/vendor/bootstrap/js/bootstrap.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/Pempresa/vendor/bootstrap/js/bootstrap.bundle.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/Pempresa/vendor/bootstrap/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/Pempresa/vendor/bootstrap/js/bootstrap.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/Pempresa/vendor/bootstrap/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/Pempresa/vendor/bootstrap/js/bootstrap.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/Pempresa/vendor/devicons/css/devicons.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/Pempresa/vendor/devicons/css/devicons.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/Pempresa/vendor/devicons/css/devicons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/Pempresa/vendor/devicons/fonts/devicons.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/Pempresa/vendor/devicons/fonts/devicons.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/Pempresa/vendor/devicons/fonts/devicons.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/Pempresa/vendor/devicons/fonts/devicons.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/Pempresa/vendor/font-awesome/css/font-awesome.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/Pempresa/vendor/font-awesome/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/Pempresa/vendor/font-awesome/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/Pempresa/vendor/font-awesome/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/Pempresa/vendor/font-awesome/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/Pempresa/vendor/font-awesome/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/Pempresa/vendor/font-awesome/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/Pempresa/vendor/font-awesome/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/Pempresa/vendor/font-awesome/less/animated.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/Pempresa/vendor/font-awesome/less/bordered-pulled.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/Pempresa/vendor/font-awesome/less/core.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/Pempresa/vendor/font-awesome/less/fixed-width.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/Pempresa/vendor/font-awesome/less/font-awesome.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/Pempresa/vendor/font-awesome/less/icons.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/Pempresa/vendor/font-awesome/less/larger.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/Pempresa/vendor/font-awesome/less/list.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/Pempresa/vendor/font-awesome/less/mixins.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/Pempresa/vendor/font-awesome/less/path.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/Pempresa/vendor/font-awesome/less/rotated-flipped.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/Pempresa/vendor/font-awesome/less/screen-reader.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/Pempresa/vendor/font-awesome/less/stacked.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/Pempresa/vendor/font-awesome/less/variables.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/Pempresa/vendor/font-awesome/scss/_animated.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/Pempresa/vendor/font-awesome/scss/_bordered-pulled.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/Pempresa/vendor/font-awesome/scss/_core.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/Pempresa/vendor/font-awesome/scss/_fixed-width.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/Pempresa/vendor/font-awesome/scss/_icons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/Pempresa/vendor/font-awesome/scss/_larger.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/Pempresa/vendor/font-awesome/scss/_list.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/Pempresa/vendor/font-awesome/scss/_mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/Pempresa/vendor/font-awesome/scss/_path.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/Pempresa/vendor/font-awesome/scss/_rotated-flipped.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/Pempresa/vendor/font-awesome/scss/_screen-reader.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/Pempresa/vendor/font-awesome/scss/_stacked.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/Pempresa/vendor/font-awesome/scss/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/Pempresa/vendor/font-awesome/scss/font-awesome.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/Pempresa/vendor/jquery-easing/jquery.easing.compatibility.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/Pempresa/vendor/jquery-easing/jquery.easing.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/Pempresa/vendor/jquery-easing/jquery.easing.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/Pempresa/vendor/jquery/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/Pempresa/vendor/jquery/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/Pempresa/vendor/jquery/jquery.min.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/Pempresa/vendor/jquery/jquery.slim.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/Pempresa/vendor/jquery/jquery.slim.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/Pempresa/vendor/jquery/jquery.slim.min.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/Pempresa/vendor/simple-line-icons/css/simple-line-icons.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/Pempresa/vendor/simple-line-icons/fonts/Simple-Line-Icons.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/Pempresa/vendor/simple-line-icons/fonts/Simple-Line-Icons.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/Pempresa/vendor/simple-line-icons/fonts/Simple-Line-Icons.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/Pempresa/vendor/simple-line-icons/fonts/Simple-Line-Icons.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/Pempresa/vendor/simple-line-icons/fonts/Simple-Line-Icons.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/Pempresa/vendor/simple-line-icons/less/simple-line-icons.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/Pempresa/vendor/simple-line-icons/scss/simple-line-icons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/curriculum.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/.travis.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/PNG/128/984101 - avatar businessman male perso.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/PNG/128/984102 - avatar casual male man person.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/PNG/128/984103 - avatar geek male man person u.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/PNG/128/984104 - avatar female girl person use.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/PNG/128/984106 - avatar female girl glasses pe.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/PNG/128/984108 - avatar male man person user y.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/PNG/128/984109 - avatar businessman male perso.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/PNG/128/984111 - avatar geek male man person u.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/PNG/128/984113 - avatar casual female girl per.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/PNG/128/984116 - avatar female girl person use.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/PNG/128/984119 - avatar male man person user.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/PNG/128/984120 - avatar businessman male man u.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/PNG/128/984122 - avatar male man user.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/PNG/128/984123 - avatar guy male man user.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/PNG/128/984125 - avatar girl user.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/PNG/128/984126 - avatar male man user.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/PNG/128/984127 - avatar male man user.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/PNG/16/984101 - avatar businessman male person.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/PNG/16/984102 - avatar casual male man person .png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/PNG/16/984103 - avatar geek male man person us.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/PNG/16/984104 - avatar female girl person user.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/PNG/16/984106 - avatar female girl glasses per.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/PNG/16/984108 - avatar male man person user yo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/PNG/16/984109 - avatar businessman male person.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/PNG/16/984111 - avatar geek male man person us.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/PNG/16/984113 - avatar casual female girl pers.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/PNG/16/984116 - avatar female girl person user.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/PNG/16/984119 - avatar male man person user.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/PNG/16/984120 - avatar businessman male man us.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/PNG/16/984122 - avatar male man user.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/PNG/16/984123 - avatar guy male man user.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/PNG/16/984125 - avatar girl user.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/PNG/16/984126 - avatar male man user.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/PNG/16/984127 - avatar male man user.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/PNG/20/984101 - avatar businessman male person.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/PNG/20/984102 - avatar casual male man person .png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/PNG/20/984103 - avatar geek male man person us.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/PNG/20/984104 - avatar female girl person user.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/PNG/20/984106 - avatar female girl glasses per.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/PNG/20/984108 - avatar male man person user yo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/PNG/20/984109 - avatar businessman male person.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/PNG/20/984111 - avatar geek male man person us.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/PNG/20/984113 - avatar casual female girl pers.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/PNG/20/984116 - avatar female girl person user.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/PNG/20/984119 - avatar male man person user.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/PNG/20/984120 - avatar businessman male man us.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/PNG/20/984122 - avatar male man user.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/PNG/20/984123 - avatar guy male man user.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/PNG/20/984125 - avatar girl user.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/PNG/20/984126 - avatar male man user.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/PNG/20/984127 - avatar male man user.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/PNG/24/984101 - avatar businessman male person.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/PNG/24/984102 - avatar casual male man person .png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/PNG/24/984103 - avatar geek male man person us.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/PNG/24/984104 - avatar female girl person user.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/PNG/24/984106 - avatar female girl glasses per.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/PNG/24/984108 - avatar male man person user yo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/PNG/24/984109 - avatar businessman male person.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/PNG/24/984111 - avatar geek male man person us.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/PNG/24/984113 - avatar casual female girl pers.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/PNG/24/984116 - avatar female girl person user.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/PNG/24/984119 - avatar male man person user.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/PNG/24/984120 - avatar businessman male man us.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/PNG/24/984122 - avatar male man user.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/PNG/24/984123 - avatar guy male man user.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/PNG/24/984125 - avatar girl user.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/PNG/24/984126 - avatar male man user.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/PNG/24/984127 - avatar male man user.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/PNG/256/984101 - avatar businessman male perso.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/PNG/256/984102 - avatar casual male man person.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/PNG/256/984103 - avatar geek male man person u.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/PNG/256/984104 - avatar female girl person use.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/PNG/256/984106 - avatar female girl glasses pe.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/PNG/256/984108 - avatar male man person user y.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/PNG/256/984109 - avatar businessman male perso.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/PNG/256/984111 - avatar geek male man person u.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/PNG/256/984113 - avatar casual female girl per.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/PNG/256/984116 - avatar female girl person use.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/PNG/256/984119 - avatar male man person user.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/PNG/256/984120 - avatar businessman male man u.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/PNG/256/984122 - avatar male man user.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/PNG/256/984123 - avatar guy male man user.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/PNG/256/984125 - avatar girl user.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/PNG/256/984126 - avatar male man user.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/PNG/256/984127 - avatar male man user.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/PNG/32/984101 - avatar businessman male person.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/PNG/32/984102 - avatar casual male man person .png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/PNG/32/984103 - avatar geek male man person us.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/PNG/32/984104 - avatar female girl person user.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/PNG/32/984106 - avatar female girl glasses per.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/PNG/32/984108 - avatar male man person user yo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/PNG/32/984109 - avatar businessman male person.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/PNG/32/984111 - avatar geek male man person us.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/PNG/32/984113 - avatar casual female girl pers.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/PNG/32/984116 - avatar female girl person user.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/PNG/32/984119 - avatar male man person user.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/PNG/32/984120 - avatar businessman male man us.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/PNG/32/984122 - avatar male man user.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/PNG/32/984123 - avatar guy male man user.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/PNG/32/984125 - avatar girl user.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/PNG/32/984126 - avatar male man user.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/PNG/32/984127 - avatar male man user.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/PNG/48/984101 - avatar businessman male person.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/PNG/48/984102 - avatar casual male man person .png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/PNG/48/984103 - avatar geek male man person us.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/PNG/48/984104 - avatar female girl person user.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/PNG/48/984106 - avatar female girl glasses per.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/PNG/48/984108 - avatar male man person user yo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/PNG/48/984109 - avatar businessman male person.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/PNG/48/984111 - avatar geek male man person us.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/PNG/48/984113 - avatar casual female girl pers.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/PNG/48/984116 - avatar female girl person user.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/PNG/48/984119 - avatar male man person user.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/PNG/48/984120 - avatar businessman male man us.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/PNG/48/984122 - avatar male man user.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/PNG/48/984123 - avatar guy male man user.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/PNG/48/984125 - avatar girl user.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/PNG/48/984126 - avatar male man user.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/PNG/48/984127 - avatar male man user.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/PNG/512/984101 - avatar businessman male perso.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/PNG/512/984102 - avatar casual male man person.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/PNG/512/984103 - avatar geek male man person u.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/PNG/512/984104 - avatar female girl person use.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/PNG/512/984106 - avatar female girl glasses pe.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/PNG/512/984108 - avatar male man person user y.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/PNG/512/984111 - avatar geek male man person u.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/PNG/512/984113 - avatar casual female girl per.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/PNG/512/984116 - avatar female girl person use.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/PNG/512/984119 - avatar male man person user.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/PNG/512/984120 - avatar businessman male man u.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/PNG/512/984122 - avatar male man user.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/PNG/512/984123 - avatar guy male man user.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/PNG/512/984125 - avatar girl user.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/PNG/512/984126 - avatar male man user.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/PNG/512/984127 - avatar male man user.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/PNG/64/984101 - avatar businessman male person.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/PNG/64/984102 - avatar casual male man person .png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/PNG/64/984103 - avatar geek male man person us.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/PNG/64/984104 - avatar female girl person user.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/PNG/64/984106 - avatar female girl glasses per.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/PNG/64/984108 - avatar male man person user yo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/PNG/64/984109 - avatar businessman male person.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/PNG/64/984111 - avatar geek male man person us.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/PNG/64/984113 - avatar casual female girl pers.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/PNG/64/984116 - avatar female girl person user.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/PNG/64/984119 - avatar male man person user.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/PNG/64/984120 - avatar businessman male man us.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/PNG/64/984122 - avatar male man user.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/PNG/64/984123 - avatar guy male man user.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/PNG/64/984125 - avatar girl user.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/PNG/64/984126 - avatar male man user.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/PNG/64/984127 - avatar male man user.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/Vista_Perfil.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/css/resume.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/css/resume.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/gulpfile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/img/I_perfil.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/img/profile.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/js/resume.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/js/resume.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/scss/_bootstrap-overrides.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/scss/_global.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/scss/_mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/scss/_nav.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/scss/_resume-item.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/scss/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/scss/resume.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/vendor/bootstrap/css/bootstrap-grid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/vendor/bootstrap/css/bootstrap-grid.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/vendor/bootstrap/css/bootstrap-reboot.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/vendor/bootstrap/css/bootstrap-reboot.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/vendor/bootstrap/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/vendor/bootstrap/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/vendor/bootstrap/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/vendor/bootstrap/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/vendor/bootstrap/js/bootstrap.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/vendor/bootstrap/js/bootstrap.bundle.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/vendor/bootstrap/js/bootstrap.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/vendor/bootstrap/js/bootstrap.bundle.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/vendor/bootstrap/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/vendor/bootstrap/js/bootstrap.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/vendor/bootstrap/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/vendor/bootstrap/js/bootstrap.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/vendor/devicons/css/devicons.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/vendor/devicons/css/devicons.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/vendor/devicons/css/devicons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/vendor/devicons/fonts/devicons.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/vendor/devicons/fonts/devicons.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/vendor/devicons/fonts/devicons.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/vendor/devicons/fonts/devicons.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/vendor/font-awesome/css/font-awesome.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/vendor/font-awesome/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/vendor/font-awesome/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/vendor/font-awesome/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/vendor/font-awesome/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/vendor/font-awesome/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/vendor/font-awesome/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/vendor/font-awesome/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/vendor/font-awesome/less/animated.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/vendor/font-awesome/less/bordered-pulled.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/vendor/font-awesome/less/core.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/vendor/font-awesome/less/fixed-width.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/vendor/font-awesome/less/font-awesome.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/vendor/font-awesome/less/icons.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/vendor/font-awesome/less/larger.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/vendor/font-awesome/less/list.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/vendor/font-awesome/less/mixins.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/vendor/font-awesome/less/path.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/vendor/font-awesome/less/rotated-flipped.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/vendor/font-awesome/less/screen-reader.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/vendor/font-awesome/less/stacked.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/vendor/font-awesome/less/variables.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/vendor/font-awesome/scss/_animated.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/vendor/font-awesome/scss/_bordered-pulled.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/vendor/font-awesome/scss/_core.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/vendor/font-awesome/scss/_fixed-width.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/vendor/font-awesome/scss/_icons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/vendor/font-awesome/scss/_larger.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/vendor/font-awesome/scss/_list.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/vendor/font-awesome/scss/_mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/vendor/font-awesome/scss/_path.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/vendor/font-awesome/scss/_rotated-flipped.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/vendor/font-awesome/scss/_screen-reader.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/vendor/font-awesome/scss/_stacked.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/vendor/font-awesome/scss/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/vendor/font-awesome/scss/font-awesome.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/vendor/jquery-easing/jquery.easing.compatibility.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/vendor/jquery-easing/jquery.easing.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/vendor/jquery-easing/jquery.easing.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/vendor/jquery/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/vendor/jquery/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/vendor/jquery/jquery.min.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/vendor/jquery/jquery.slim.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/vendor/jquery/jquery.slim.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/vendor/jquery/jquery.slim.min.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/vendor/simple-line-icons/css/simple-line-icons.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/vendor/simple-line-icons/fonts/Simple-Line-Icons.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/vendor/simple-line-icons/fonts/Simple-Line-Icons.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/vendor/simple-line-icons/fonts/Simple-Line-Icons.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/vendor/simple-line-icons/fonts/Simple-Line-Icons.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/vendor/simple-line-icons/fonts/Simple-Line-Icons.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/vendor/simple-line-icons/less/simple-line-icons.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/App_G_a_J/ejemplo/vendor/simple-line-icons/scss/simple-line-icons.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Apps/App_Get_a_Job/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/Apps/App_Get_a_Job/admin.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Apps/App_Get_a_Job/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/Apps/App_Get_a_Job/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apps/App_Get_a_Job/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/Apps/App_Get_a_Job/migrations/0001_initial.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apps/App_Get_a_Job/migrations/0002_delete_pruebas.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apps/App_Get_a_Job/migrations/0003_auto_20180731_0803.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apps/App_Get_a_Job/migrations/0004_auto_20180731_0819.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apps/App_Get_a_Job/migrations/0005_auto_20180731_1000.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apps/App_Get_a_Job/migrations/0006_auto_20180731_1008.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apps/App_Get_a_Job/migrations/0007_auto_20180731_1759.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apps/App_Get_a_Job/migrations/0008_auto_20180731_1847.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apps/App_Get_a_Job/migrations/0009_auto_20180731_2000.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apps/App_Get_a_Job/migrations/0010_curriculum.py" beforeDir="false" afterPath="$PROJECT_DIR$/Apps/App_Get_a_Job/migrations/0002_curriculum.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Apps/App_Get_a_Job/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Apps/App_Get_a_Job/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Apps/App_Get_a_Job/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Apps/App_Get_a_Job/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Apps/App_Get_a_Job/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Apps/App_Get_a_Job/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apps/App_Usuarios/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/Apps/App_Usuarios/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apps/App_Usuarios/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Apps/App_Usuarios/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apps/App_Usuarios/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Apps/App_Usuarios/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BD_Proyecto_F.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/BD_Proyecto_F.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Crear_Usuario/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Crear_Usuario/admin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Crear_Usuario/apps.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Crear_Usuario/forms.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Crear_Usuario/migrations/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Crear_Usuario/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Crear_Usuario/tests.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Crear_Usuario/views.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Proyecto_Final_DS/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_Final_DS/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Proyecto_Final_DS/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_Final_DS/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Templates/App_G_a_J/C_Principal/PagP.html" beforeDir="false" afterPath="$PROJECT_DIR$/Templates/App_G_a_J/C_Principal/PagP_0.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Templates/App_G_a_J/Login_Registro.html" beforeDir="false" afterPath="$PROJECT_DIR$/Templates/App_G_a_J/Login_Registro.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/Templates/Get_a_Job/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Templates/crearEmpl.html" beforeDir="false" afterPath="$PROJECT_DIR$/Templates/Get_a_Job/crearEmpl.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Templates/crearEmpl2.html" beforeDir="false" afterPath="$PROJECT_DIR$/Templates/Get_a_Job/crearEmpl2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Templates/crearOfrt.html" beforeDir="false" afterPath="$PROJECT_DIR$/Templates/Get_a_Job/crearOfrt.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Templates/crearSolct.html" beforeDir="false" afterPath="$PROJECT_DIR$/Templates/Get_a_Job/crearSolct.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Templates/Get_a_Job/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Templates/App_G_a_J/Prototipo_VistaPerfil.html" beforeDir="false" afterPath="$PROJECT_DIR$/Templates/App_G_a_J/Prototipo_VistaPerfil.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -39,11 +497,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="urls.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Apps/App_Get_a_Job/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+            <state relative-caret-position="245">
+              <caret line="13" column="78" selection-start-line="13" selection-start-column="78" selection-end-line="13" selection-end-column="78" />
               <folding>
                 <element signature="e#0#32#0" expanded="true" />
               </folding>
@@ -51,35 +509,60 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="listar_Usuarios.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Templates/listar_Usuarios.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="20" column="30" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
-              <caret line="21" column="30" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
-              <caret line="22" column="30" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
-              <caret line="23" column="30" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
-              <caret line="24" column="30" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
-              <caret line="25" column="30" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
-              <caret line="26" column="30" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
-              <caret line="27" column="30" selection-start-line="27" selection-start-column="30" selection-end-line="27" selection-end-column="30" />
-            </state>
-          </provider>
+      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Proyecto_Final_DS/urls.py">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Apps/App_Get_a_Job/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="261">
-              <caret line="73" column="15" selection-start-line="73" selection-start-column="15" selection-end-line="73" selection-end-column="15" />
-              <caret line="74" column="43" selection-start-line="74" selection-start-column="43" selection-end-line="74" selection-end-column="43" />
+            <state relative-caret-position="245">
+              <caret line="95" column="19" selection-start-line="95" selection-start-column="6" selection-end-line="95" selection-end-column="19" />
               <folding>
                 <element signature="e#24#63#0" expanded="true" />
-                <element signature="e#214#712#0" />
-                <element signature="e#747#1244#0" />
-                <element signature="e#1276#1547#0" />
-                <element signature="e#1574#2071#0" />
-                <element signature="e#2184#2359#1" />
+                <element signature="e#517#1011#0" />
+                <element signature="e#1046#1539#0" />
+                <element signature="e#1571#1842#0" />
+                <element signature="e#1866#2359#0" />
+                <element signature="e#2536#2863#1" />
+                <element signature="e#3159#3704#1" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PagP_0.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Templates/App_G_a_J/C_Principal/PagP_0.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="175">
+              <caret line="63" column="37" selection-start-line="63" selection-start-column="37" selection-end-line="63" selection-end-column="37" />
+              <folding>
+                <element signature="n#head#0;n#html#0;n#!!top" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Perfiles.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Templates/App_G_a_J/C_Principal/Perfiles.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="140">
+              <caret line="57" column="37" selection-start-line="57" selection-start-column="37" selection-end-line="57" selection-end-column="37" />
+              <folding>
+                <element signature="n#head#0;n#html#0;n#!!top" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Proyecto_Final_DS/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1763">
+              <caret line="114" lean-forward="true" selection-start-line="114" selection-end-line="114" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -88,34 +571,28 @@
       <file leaf-file-name="Login_Registro.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Templates/App_G_a_J/Login_Registro.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="490">
-              <caret line="35" column="54" selection-start-line="35" selection-start-column="54" selection-end-line="35" selection-end-column="65" />
+            <state relative-caret-position="350">
+              <caret line="47" column="30" lean-forward="true" selection-start-line="47" selection-start-column="30" selection-end-line="47" selection-end-column="30" />
               <folding>
-                <element signature="n#head#0;n#html#0;n#!!top" />
-                <element signature="n#style#1;n#head#0;n#html#0;n#!!top" />
-                <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#div#1;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#3;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#style#0;n#div#1;n#div#3;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#div#1;n#div#3;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PagP.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Templates/App_G_a_J/C_Principal/PagP.html">
+      <file leaf-file-name="Prototipo_VistaPerfil.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Templates/App_G_a_J/Prototipo_VistaPerfil.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="555">
-              <caret line="67" column="11" lean-forward="true" selection-start-line="67" selection-start-column="11" selection-end-line="67" selection-end-column="11" />
+            <state relative-caret-position="-105">
+              <caret line="32" column="60" selection-start-line="32" selection-start-column="34" selection-end-line="32" selection-end-column="60" />
               <folding>
                 <element signature="n#head#0;n#html#0;n#!!top" />
-                <element signature="n#a#0;n#nav#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#button#0;n#nav#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#ul#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#li#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#a#0;n#li#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" />
               </folding>
             </state>
           </provider>
@@ -153,30 +630,38 @@
         <option value="$PROJECT_DIR$/Templates/crearUsuario.html" />
         <option value="$PROJECT_DIR$/Apps/App_Get_a_Job/backend.py" />
         <option value="$PROJECT_DIR$/Templates/crearEmpl2.html" />
-        <option value="$PROJECT_DIR$/Templates/App_G_a_J/Login_Registro.html" />
-        <option value="$PROJECT_DIR$/Apps/App_Get_a_Job/forms.py" />
         <option value="$PROJECT_DIR$/Apps/App_Get_a_Job/migrations/0009_auto_20180731_1952.py" />
-        <option value="$PROJECT_DIR$/Apps/App_Get_a_Job/admin.py" />
-        <option value="$PROJECT_DIR$/Apps/App_Get_a_Job/models.py" />
         <option value="$PROJECT_DIR$/Apps/App_Usuarisos/forms.py" />
         <option value="$PROJECT_DIR$/Apps/App_Usuarisos/urls.py" />
         <option value="$PROJECT_DIR$/Templates/App_Usuarios/listarUsuarios.py" />
         <option value="$PROJECT_DIR$/Templates/App_Usuarios/listar_Usuarios.html" />
         <option value="$PROJECT_DIR$/Apps/App_Usuarisos/views.py" />
         <option value="$PROJECT_DIR$/Apps/App_Usuarios/apps.py" />
+        <option value="$PROJECT_DIR$/Templates/listar_Usuarios.html" />
+        <option value="$PROJECT_DIR$/Apps/App_Usuarios/forms.py" />
+        <option value="$PROJECT_DIR$/Apps/App_Usuarios/models.py" />
+        <option value="$PROJECT_DIR$/Apps/App_Usuarios/views.py" />
+        <option value="$PROJECT_DIR$/Templates/App_G_a_J/Login_Registro.html" />
+        <option value="$PROJECT_DIR$/Templates/App_G_a_J/C_Principal/PagP.html" />
+        <option value="$PROJECT_DIR$/Apps/App_Get_a_Job/migrations/0011_auto_20180801_0238.py" />
         <option value="$PROJECT_DIR$/Proyecto_Final_DS/settings.py" />
+        <option value="$PROJECT_DIR$/Templates/App_G_a_J/curriculum.html" />
+        <option value="$PROJECT_DIR$/Apps/App_Get_a_Job/models.py" />
+        <option value="$PROJECT_DIR$/Apps/App_Get_a_Job/admin.py" />
+        <option value="$PROJECT_DIR$/Apps/App_Get_a_Job/forms.py" />
         <option value="$PROJECT_DIR$/Proyecto_Final_DS/urls.py" />
         <option value="$PROJECT_DIR$/Apps/App_Get_a_Job/views.py" />
+        <option value="$PROJECT_DIR$/Templates/App_G_a_J/Prototipo_VistaPerfil.html" />
+        <option value="$PROJECT_DIR$/Templates/App_G_a_J/C_Principal/Perfiles.html" />
+        <option value="$PROJECT_DIR$/Templates/App_G_a_J/C_Principal/PagP_0.html" />
         <option value="$PROJECT_DIR$/Apps/App_Get_a_Job/urls.py" />
-        <option value="$PROJECT_DIR$/Templates/listar_Usuarios.html" />
-        <option value="$PROJECT_DIR$/Templates/App_G_a_J/C_Principal/PagP.html" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="676" />
-    <option name="width" value="697" />
-    <option name="height" value="735" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="472" />
+    <option name="width" value="914" />
+    <option name="height" value="740" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -184,7 +669,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -200,47 +684,30 @@
             <path>
               <item name="Proyecto_Final_DS" type="b2602c69:ProjectViewProjectNode" />
               <item name="Proyecto_Final_DS" type="462c0819:PsiDirectoryNode" />
-              <item name="Apps" type="462c0819:PsiDirectoryNode" />
-              <item name="App_Get_a_Job" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Proyecto_Final_DS" type="b2602c69:ProjectViewProjectNode" />
               <item name="Proyecto_Final_DS" type="462c0819:PsiDirectoryNode" />
-              <item name="Apps" type="462c0819:PsiDirectoryNode" />
-              <item name="App_Get_a_Job" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Proyecto_Final_DS" type="b2602c69:ProjectViewProjectNode" />
               <item name="Proyecto_Final_DS" type="462c0819:PsiDirectoryNode" />
               <item name="Templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Proyecto_Final_DS" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Proyecto_Final_DS" type="462c0819:PsiDirectoryNode" />
-              <item name="Templates" type="462c0819:PsiDirectoryNode" />
-              <item name="App_G_a_J" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Proyecto_Final_DS" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Proyecto_Final_DS" type="462c0819:PsiDirectoryNode" />
-              <item name="Templates" type="462c0819:PsiDirectoryNode" />
-              <item name="App_G_a_J" type="462c0819:PsiDirectoryNode" />
-              <item name="C_Principal" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="full.screen.before.presentation.mode" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../CRUD_P" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Rond\Desktop\Proyecto_Final_DS\Apps\App_Get_a_Job\migrations" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Rond\Desktop\Proyecto_Final_DS\Templates" />
       <recent name="C:\Users\Rond\Desktop\Proyecto_Final_DS\Templates\Get_a_Job" />
@@ -281,10 +748,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22767204" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18814056" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info id="DB Browser" order="2" />
       <window_info anchor="bottom" id="DB Execution Console" order="1" />
@@ -293,19 +760,31 @@
       <window_info anchor="bottom" id="Python Console" order="5" />
       <window_info anchor="bottom" id="Run" order="9" />
       <window_info id="Structure" order="3" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="2" visible="true" weight="0.24722663" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="2" visible="true" weight="0.3296355" />
       <window_info id="Favorites" order="1" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="10" weight="0.4" />
       <window_info active="true" anchor="right" x="359" y="48" width="647" height="631" id="Embedded Web Browser" order="3" visible="true" weight="0.4736457" />
+      <window_info anchor="bottom" id="DB Execution Console" order="1" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
       <window_info anchor="right" id="emBrowser" order="3" weight="0.4238653" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22767204" />
+      <window_info id="Structure" order="3" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="0" weight="0.3280507" />
+      <window_info anchor="bottom" id="Run" order="9" />
+      <window_info id="DB Browser" order="2" />
+      <window_info anchor="bottom" id="Debug" order="10" weight="0.4" />
       <window_info anchor="bottom" id="Messages" order="4" />
       <window_info anchor="bottom" id="Message" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
+      <window_info id="Favorites" order="1" side_tool="true" />
       <window_info anchor="bottom" id="Find" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="2" visible="true" weight="0.24722663" />
+      <window_info anchor="bottom" id="Python Console" order="5" />
     </layout>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -343,150 +822,17 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="11" />
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Apps/App_Usuarios/admin.py</url>
+          <line>1</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="15" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://C:/Python27/Lib/site-packages/django/forms/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="274" selection-start-line="274" selection-end-line="274" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Crear_Usuario/forms.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Crear_Usuario/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="4" column="26" lean-forward="true" selection-start-line="4" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Templates/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Templates/crearSolct.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Apps/App_Get_a_Job/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="800">
-          <caret line="56" selection-start-line="56" selection-end-line="56" />
-          <folding>
-            <element signature="e#24#63#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Apps/App_Get_a_Job/forms.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="16">
-          <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Apps/App_Get_a_Job/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="35">
-          <caret line="1" column="20" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Proyecto_Final_DS/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="24" column="19" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Python27/Lib/site-packages/django/urls/resolvers.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-286">
-          <caret line="197" selection-start-line="197" selection-end-line="197" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Apps/App_Get_a_Job/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="35">
-          <caret line="1" column="11" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
-          <folding>
-            <element signature="e#24#63#0" expanded="true" />
-            <element signature="e#214#712#0" />
-            <element signature="e#747#1244#0" />
-            <element signature="e#1276#1547#0" />
-            <element signature="e#1574#2071#0" />
-            <element signature="e#2184#2359#1" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Proyecto_Final_DS/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Apps/App_Get_a_Job/migrations/0001_initial.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Templates/crearS.html" />
-    <entry file="file://C:/Python27/Lib/site-packages/django/forms/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="274" selection-start-line="274" selection-end-line="274" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/manage.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Apps/App_Get_a_Job/static/css/sb-admin.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="35">
-          <caret line="1" column="21" lean-forward="true" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Apps/App_Get_a_Job/static/css/resume.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Apps/App_Get_a_Job/static/css/estilos.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-28">
-          <caret line="181" column="5" lean-forward="true" selection-start-line="181" selection-start-column="5" selection-end-line="181" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Templates/crearOfrt.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="280">
@@ -520,25 +866,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Apps/App_Get_a_Job/backend.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="3" column="43" selection-start-line="3" selection-start-column="43" selection-end-line="3" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Apps/App_Get_a_Job/backend.py" />
     <entry file="file://$PROJECT_DIR$/Apps/App_Get_a_Job/migrations/0007_auto_20180731_1759.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-315" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Apps/App_Get_a_Job/migrations/0009_auto_20180731_1952.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="64" column="45" selection-start-line="64" selection-start-column="45" selection-end-line="64" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Apps/App_Get_a_Job/migrations/0009_auto_20180731_1952.py" />
     <entry file="file://$PROJECT_DIR$/Apps/App_Get_a_Job/migrations/0008_auto_20180731_1847.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -547,118 +881,12 @@
         <state relative-caret-position="-341" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Templates/App_Usuarios/listarUsuarios.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Apps/App_Usuarisos/forms.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Apps/App_Usuarisos/urls.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Apps/App_Get_a_Job/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="849">
-          <caret line="128" column="31" selection-start-line="128" selection-start-column="31" selection-end-line="128" selection-end-column="31" />
-          <folding>
-            <element signature="e#24#63#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Apps/App_Usuarisos/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="13" column="3" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
-          <folding>
-            <element signature="e#24#63#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Apps/App_Usuarisos/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#24#63#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Apps/App_Get_a_Job/apps.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Apps/App_Usuarios/apps.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="22" lean-forward="true" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Apps/App_Get_a_Job/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="15" column="36" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
-          <folding>
-            <element signature="e#24#63#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Proyecto_Final_DS/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="26" column="54" selection-start-line="26" selection-start-column="54" selection-end-line="26" selection-end-column="54" />
-          <folding>
-            <element signature="e#0#650#1" />
-            <element signature="e#651#692#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Proyecto_Final_DS/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2455">
-          <caret line="44" column="13" selection-start-line="44" selection-start-column="13" selection-end-line="44" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-            <element signature="e#608#847#0" />
-            <element signature="e#862#1261#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Apps/App_Usuarios/views.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Templates/crearEmpl2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="28" column="38" lean-forward="true" selection-start-line="28" selection-start-column="38" selection-end-line="28" selection-end-column="38" />
-          <folding>
-            <element signature="n#head#0;n#html#0;n#!!top" />
-            <element signature="n#style#1;n#head#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#style#0;n#div#1;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#div#1;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#3;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#style#0;n#div#1;n#div#3;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#div#1;n#div#3;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Templates/crearUsuario.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="9" column="15" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Templates/App_Usuarios/listarUsuarios.py" />
+    <entry file="file://$PROJECT_DIR$/Apps/App_Usuarisos/forms.py" />
+    <entry file="file://$PROJECT_DIR$/Apps/App_Usuarisos/urls.py" />
+    <entry file="file://$PROJECT_DIR$/Apps/App_Usuarisos/views.py" />
+    <entry file="file://$PROJECT_DIR$/Apps/App_Usuarisos/admin.py" />
+    <entry file="file://$PROJECT_DIR$/Templates/crearUsuario.html" />
     <entry file="file://$PROJECT_DIR$/Templates/base.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="275">
@@ -674,70 +902,155 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Apps/App_Get_a_Job/forms.py">
+    <entry file="file://$PROJECT_DIR$/Templates/listar_Usuarios.html" />
+    <entry file="file://$PROJECT_DIR$/Apps/App_Usuarios/models.py" />
+    <entry file="file://$PROJECT_DIR$/Apps/App_Usuarios/views.py" />
+    <entry file="file://$PROJECT_DIR$/Apps/App_Usuarios/forms.py" />
+    <entry file="file://$PROJECT_DIR$/Apps/App_Usuarios/urls.py" />
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/django/forms/fields.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1">
-          <caret line="9" column="21" lean-forward="true" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+        <state relative-caret-position="202">
+          <caret line="208" column="8" selection-start-line="208" selection-start-column="8" selection-end-line="208" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Templates/App_G_a_J/C_Principal/Formulario_Curriculum.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="70">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python27/Lib/site-packages/django/forms/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="449">
+          <caret line="276" selection-start-line="276" selection-end-line="276" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python27/Lib/site-packages/django/forms/fields.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4340">
+          <caret line="227" selection-start-line="227" selection-end-line="227" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Templates/App_G_a_J/C_Principal/PagP.html" />
+    <entry file="file://$PROJECT_DIR$/Templates/App_G_a_J/Logo.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Apps/App_Get_a_Job/migrations/0014_curriculum.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-105" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Apps/App_Get_a_Job/migrations/0006_auto_20180731_1008.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-395">
+          <caret selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Apps/App_Get_a_Job/migrations/0012_curriculum.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Apps/App_Get_a_Job/migrations/0011_auto_20180801_0238.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Apps/App_Get_a_Job/migrations/0013_auto_20180801_0514.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
           <folding>
-            <element signature="e#15#39#0" expanded="true" />
-            <element signature="e#4147#8002#0" />
-            <element signature="e#8045#9194#0" />
+            <element signature="e#74#113#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Apps/App_Get_a_Job/views.py">
+    <entry file="file://$PROJECT_DIR$/Apps/App_Get_a_Job/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Apps/App_Get_a_Job/migrations/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Apps/App_Get_a_Job/tests.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Apps/App_Usuarios/apps.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Apps/App_Usuarios/admin.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Apps/App_Get_a_Job/admin.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="73" column="15" selection-start-line="73" selection-start-column="15" selection-end-line="73" selection-end-column="15" />
-          <caret line="74" column="43" selection-start-line="74" selection-start-column="43" selection-end-line="74" selection-end-column="43" />
+        <state relative-caret-position="237">
+          <caret line="20" selection-start-line="20" selection-end-line="21" />
           <folding>
             <element signature="e#24#63#0" expanded="true" />
-            <element signature="e#214#712#0" />
-            <element signature="e#747#1244#0" />
-            <element signature="e#1276#1547#0" />
-            <element signature="e#1574#2071#0" />
-            <element signature="e#2184#2359#1" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Apps/App_Get_a_Job/urls.py">
+    <entry file="file://$PROJECT_DIR$/Apps/App_Get_a_Job/forms.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+        <state relative-caret-position="1190">
+          <caret line="323" column="35" selection-start-line="323" selection-start-column="35" selection-end-line="323" selection-end-column="35" />
           <folding>
-            <element signature="e#0#32#0" expanded="true" />
+            <element signature="e#15#39#0" expanded="true" />
+            <element signature="e#278#4270#0" />
+            <element signature="e#4317#8172#0" />
+            <element signature="e#8215#9364#0" />
+            <element signature="e#9367#20557#1" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Templates/listar_Usuarios.html">
+    <entry file="file://$PROJECT_DIR$/Apps/App_Get_a_Job/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="20" column="30" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
-          <caret line="21" column="30" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
-          <caret line="22" column="30" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
-          <caret line="23" column="30" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
-          <caret line="24" column="30" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
-          <caret line="25" column="30" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
-          <caret line="26" column="30" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
-          <caret line="27" column="30" selection-start-line="27" selection-start-column="30" selection-end-line="27" selection-end-column="30" />
+        <state relative-caret-position="805">
+          <caret line="96" selection-start-line="96" selection-end-line="96" />
+          <folding>
+            <element signature="e#127#314#0" />
+            <element signature="e#340#663#1" />
+            <element signature="e#726#1221#0" />
+            <element signature="e#1260#1455#0" />
+            <element signature="e#1493#1639#0" />
+            <element signature="e#1673#1814#0" />
+            <element signature="e#1853#2379#0" />
+            <element signature="e#2418#2948#0" />
+            <element signature="e#3115#3260#0" />
+            <element signature="e#3296#3495#0" />
+            <element signature="e#3538#3759#0" />
+            <element signature="e#3796#4010#0" />
+            <element signature="e#4053#4275#0" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Templates/App_G_a_J/Login_Registro.html">
+    <entry file="file://$PROJECT_DIR$/Apps/App_Get_a_Job/apps.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="490">
-          <caret line="35" column="54" selection-start-line="35" selection-start-column="54" selection-end-line="35" selection-end-column="65" />
+        <state relative-caret-position="140">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Templates/crearEmpl2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="700">
+          <caret line="85" column="50" selection-start-line="85" selection-start-column="50" selection-end-line="85" selection-end-column="50" />
           <folding>
             <element signature="n#head#0;n#html#0;n#!!top" />
             <element signature="n#style#1;n#head#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#style#0;n#div#1;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#div#1;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#3;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#style#0;n#div#1;n#div#3;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#div#1;n#div#3;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
@@ -745,15 +1058,94 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Templates/App_G_a_J/C_Principal/PagP.html">
+    <entry file="file://$PROJECT_DIR$/Templates/App_G_a_J/curriculum.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="67" column="11" lean-forward="true" selection-start-line="67" selection-start-column="11" selection-end-line="67" selection-end-column="11" />
+        <state relative-caret-position="350">
+          <caret line="10" column="37" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Apps/App_Get_a_Job/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="95" column="19" selection-start-line="95" selection-start-column="6" selection-end-line="95" selection-end-column="19" />
+          <folding>
+            <element signature="e#24#63#0" expanded="true" />
+            <element signature="e#517#1011#0" />
+            <element signature="e#1046#1539#0" />
+            <element signature="e#1571#1842#0" />
+            <element signature="e#1866#2359#0" />
+            <element signature="e#2536#2863#1" />
+            <element signature="e#3159#3704#1" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Proyecto_Final_DS/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1763">
+          <caret line="114" lean-forward="true" selection-start-line="114" selection-end-line="114" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Templates/App_G_a_J/C_Principal/Perfiles.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="57" column="37" selection-start-line="57" selection-start-column="37" selection-end-line="57" selection-end-column="37" />
           <folding>
             <element signature="n#head#0;n#html#0;n#!!top" />
-            <element signature="n#a#0;n#nav#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#button#0;n#nav#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Templates/App_G_a_J/C_Principal/PagP_0.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="63" column="37" selection-start-line="63" selection-start-column="37" selection-end-line="63" selection-end-column="37" />
+          <folding>
+            <element signature="n#head#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Templates/App_G_a_J/Login_Registro.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="47" column="30" lean-forward="true" selection-start-line="47" selection-start-column="30" selection-end-line="47" selection-end-column="30" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#3;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Templates/App_G_a_J/Prototipo_VistaPerfil.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-105">
+          <caret line="32" column="60" selection-start-line="32" selection-start-column="34" selection-end-line="32" selection-end-column="60" />
+          <folding>
+            <element signature="n#head#0;n#html#0;n#!!top" />
             <element signature="n#ul#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#li#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#a#0;n#li#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Proyecto_Final_DS/urls.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Apps/App_Get_a_Job/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="13" column="78" selection-start-line="13" selection-start-column="78" selection-end-line="13" selection-end-column="78" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
           </folding>
         </state>
       </provider>

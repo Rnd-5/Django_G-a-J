@@ -16,7 +16,6 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
-
 # Application definition
 
 INSTALLED_APPS = [
@@ -27,7 +26,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'Apps.App_Get_a_Job',
-    'Apps.App_Usuarios'
+    #'Apps.App_Usuarios'
 ]
 
 MIDDLEWARE = [
@@ -67,7 +66,7 @@ WSGI_APPLICATION = 'Proyecto_Final_DS.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'BD_Proyecto_F.sqlite3'),
+        'NAME': os.path.join(BASE_DIR, 'Proyecto_Final_BD.sqlite3'),
     }
 }
 
