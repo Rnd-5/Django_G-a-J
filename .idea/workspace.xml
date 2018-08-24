@@ -4,109 +4,7 @@
     <bookmark url="file://$PROJECT_DIR$/Templates/crearSolct.html" line="132" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="af14b983-d1db-46d5-afc9-afa20e47b14b" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apps/App_Get_a_Job/static/C_Principal/css/body.css" beforeDir="false" afterPath="$PROJECT_DIR$/Apps/App_Get_a_Job/static/C_Principal/css/body.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apps/App_Get_a_Job/static/C_Principal/css/estilosFormulario.css" beforeDir="false" afterPath="$PROJECT_DIR$/Apps/App_Get_a_Job/static/C_Principal/css/estilosFormulario.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apps/App_Get_a_Job/static/C_Principal/css/sb-admin.css" beforeDir="false" afterPath="$PROJECT_DIR$/Apps/App_Get_a_Job/static/C_Principal/css/sb-admin.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apps/App_Get_a_Job/static/C_Principal/js/sb-admin-charts.js" beforeDir="false" afterPath="$PROJECT_DIR$/Apps/App_Get_a_Job/static/C_Principal/js/sb-admin-charts.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apps/App_Get_a_Job/static/C_Principal/js/sb-admin-datatables.js" beforeDir="false" afterPath="$PROJECT_DIR$/Apps/App_Get_a_Job/static/C_Principal/js/sb-admin-datatables.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apps/App_Get_a_Job/static/C_Principal/js/sb-admin.js" beforeDir="false" afterPath="$PROJECT_DIR$/Apps/App_Get_a_Job/static/C_Principal/js/sb-admin.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apps/App_Get_a_Job/static/C_Principal/pug/blank.pug" beforeDir="false" afterPath="$PROJECT_DIR$/Apps/App_Get_a_Job/static/C_Principal/pug/blank.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apps/App_Get_a_Job/static/C_Principal/pug/cards.pug" beforeDir="false" afterPath="$PROJECT_DIR$/Apps/App_Get_a_Job/static/C_Principal/pug/cards.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apps/App_Get_a_Job/static/C_Principal/pug/charts.pug" beforeDir="false" afterPath="$PROJECT_DIR$/Apps/App_Get_a_Job/static/C_Principal/pug/charts.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apps/App_Get_a_Job/static/C_Principal/pug/forgot-password.pug" beforeDir="false" afterPath="$PROJECT_DIR$/Apps/App_Get_a_Job/static/C_Principal/pug/forgot-password.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apps/App_Get_a_Job/static/C_Principal/pug/includes/css/core.pug" beforeDir="false" afterPath="$PROJECT_DIR$/Apps/App_Get_a_Job/static/C_Principal/pug/includes/css/core.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apps/App_Get_a_Job/static/C_Principal/pug/includes/css/custom.pug" beforeDir="false" afterPath="$PROJECT_DIR$/Apps/App_Get_a_Job/static/C_Principal/pug/includes/css/custom.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apps/App_Get_a_Job/static/C_Principal/pug/includes/footer.pug" beforeDir="false" afterPath="$PROJECT_DIR$/Apps/App_Get_a_Job/static/C_Principal/pug/includes/footer.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apps/App_Get_a_Job/static/C_Principal/pug/includes/js/core.pug" beforeDir="false" afterPath="$PROJECT_DIR$/Apps/App_Get_a_Job/static/C_Principal/pug/includes/js/core.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apps/App_Get_a_Job/static/C_Principal/pug/includes/js/custom.pug" beforeDir="false" afterPath="$PROJECT_DIR$/Apps/App_Get_a_Job/static/C_Principal/pug/includes/js/custom.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apps/App_Get_a_Job/static/C_Principal/pug/includes/modals/logout.pug" beforeDir="false" afterPath="$PROJECT_DIR$/Apps/App_Get_a_Job/static/C_Principal/pug/includes/modals/logout.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apps/App_Get_a_Job/static/C_Principal/pug/includes/navbar.pug" beforeDir="false" afterPath="$PROJECT_DIR$/Apps/App_Get_a_Job/static/C_Principal/pug/includes/navbar.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apps/App_Get_a_Job/static/C_Principal/pug/includes/scroll-to-top.pug" beforeDir="false" afterPath="$PROJECT_DIR$/Apps/App_Get_a_Job/static/C_Principal/pug/includes/scroll-to-top.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apps/App_Get_a_Job/static/C_Principal/pug/index.pug" beforeDir="false" afterPath="$PROJECT_DIR$/Apps/App_Get_a_Job/static/C_Principal/pug/index.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apps/App_Get_a_Job/static/C_Principal/pug/login.pug" beforeDir="false" afterPath="$PROJECT_DIR$/Apps/App_Get_a_Job/static/C_Principal/pug/login.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apps/App_Get_a_Job/static/C_Principal/pug/navbar.pug" beforeDir="false" afterPath="$PROJECT_DIR$/Apps/App_Get_a_Job/static/C_Principal/pug/navbar.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apps/App_Get_a_Job/static/C_Principal/pug/register.pug" beforeDir="false" afterPath="$PROJECT_DIR$/Apps/App_Get_a_Job/static/C_Principal/pug/register.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apps/App_Get_a_Job/static/C_Principal/pug/tables.pug" beforeDir="false" afterPath="$PROJECT_DIR$/Apps/App_Get_a_Job/static/C_Principal/pug/tables.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apps/App_Get_a_Job/static/C_Principal/scss/_cards.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Apps/App_Get_a_Job/static/C_Principal/scss/_cards.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apps/App_Get_a_Job/static/C_Principal/scss/_footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Apps/App_Get_a_Job/static/C_Principal/scss/_footer.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apps/App_Get_a_Job/static/C_Principal/scss/_global.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Apps/App_Get_a_Job/static/C_Principal/scss/_global.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apps/App_Get_a_Job/static/C_Principal/scss/_login.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Apps/App_Get_a_Job/static/C_Principal/scss/_login.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apps/App_Get_a_Job/static/C_Principal/scss/_mixins.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Apps/App_Get_a_Job/static/C_Principal/scss/_mixins.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apps/App_Get_a_Job/static/C_Principal/scss/_utilities.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Apps/App_Get_a_Job/static/C_Principal/scss/_utilities.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apps/App_Get_a_Job/static/C_Principal/scss/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Apps/App_Get_a_Job/static/C_Principal/scss/_variables.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apps/App_Get_a_Job/static/C_Principal/scss/navbar/_navbar_colors.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Apps/App_Get_a_Job/static/C_Principal/scss/navbar/_navbar_colors.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apps/App_Get_a_Job/static/C_Principal/scss/navbar/_navbar_fixed.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Apps/App_Get_a_Job/static/C_Principal/scss/navbar/_navbar_fixed.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apps/App_Get_a_Job/static/C_Principal/scss/navbar/_navbar_global.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Apps/App_Get_a_Job/static/C_Principal/scss/navbar/_navbar_global.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apps/App_Get_a_Job/static/C_Principal/scss/navbar/_navbar_static.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Apps/App_Get_a_Job/static/C_Principal/scss/navbar/_navbar_static.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apps/App_Get_a_Job/static/C_Principal/scss/navbar/_navbar_toggle.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Apps/App_Get_a_Job/static/C_Principal/scss/navbar/_navbar_toggle.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apps/App_Get_a_Job/static/C_Principal/scss/sb-admin.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Apps/App_Get_a_Job/static/C_Principal/scss/sb-admin.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apps/App_Get_a_Job/static/C_Principal/vendor/bootstrap/css/bootstrap-grid.css" beforeDir="false" afterPath="$PROJECT_DIR$/Apps/App_Get_a_Job/static/C_Principal/vendor/bootstrap/css/bootstrap-grid.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apps/App_Get_a_Job/static/C_Principal/vendor/bootstrap/css/bootstrap-grid.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/Apps/App_Get_a_Job/static/C_Principal/vendor/bootstrap/css/bootstrap-grid.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apps/App_Get_a_Job/static/C_Principal/vendor/bootstrap/css/bootstrap-reboot.css" beforeDir="false" afterPath="$PROJECT_DIR$/Apps/App_Get_a_Job/static/C_Principal/vendor/bootstrap/css/bootstrap-reboot.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apps/App_Get_a_Job/static/C_Principal/vendor/bootstrap/css/bootstrap-reboot.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/Apps/App_Get_a_Job/static/C_Principal/vendor/bootstrap/css/bootstrap-reboot.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apps/App_Get_a_Job/static/C_Principal/vendor/bootstrap/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/Apps/App_Get_a_Job/static/C_Principal/vendor/bootstrap/css/bootstrap.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apps/App_Get_a_Job/static/C_Principal/vendor/bootstrap/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/Apps/App_Get_a_Job/static/C_Principal/vendor/bootstrap/css/bootstrap.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apps/App_Get_a_Job/static/C_Principal/vendor/bootstrap/js/bootstrap.bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/Apps/App_Get_a_Job/static/C_Principal/vendor/bootstrap/js/bootstrap.bundle.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apps/App_Get_a_Job/static/C_Principal/vendor/bootstrap/js/bootstrap.bundle.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/Apps/App_Get_a_Job/static/C_Principal/vendor/bootstrap/js/bootstrap.bundle.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apps/App_Get_a_Job/static/C_Principal/vendor/bootstrap/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/Apps/App_Get_a_Job/static/C_Principal/vendor/bootstrap/js/bootstrap.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apps/App_Get_a_Job/static/C_Principal/vendor/bootstrap/js/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/Apps/App_Get_a_Job/static/C_Principal/vendor/bootstrap/js/bootstrap.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apps/App_Get_a_Job/static/C_Principal/vendor/chart.js/Chart.bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/Apps/App_Get_a_Job/static/C_Principal/vendor/chart.js/Chart.bundle.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apps/App_Get_a_Job/static/C_Principal/vendor/chart.js/Chart.bundle.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/Apps/App_Get_a_Job/static/C_Principal/vendor/chart.js/Chart.bundle.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apps/App_Get_a_Job/static/C_Principal/vendor/chart.js/Chart.js" beforeDir="false" afterPath="$PROJECT_DIR$/Apps/App_Get_a_Job/static/C_Principal/vendor/chart.js/Chart.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apps/App_Get_a_Job/static/C_Principal/vendor/chart.js/Chart.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/Apps/App_Get_a_Job/static/C_Principal/vendor/chart.js/Chart.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apps/App_Get_a_Job/static/C_Principal/vendor/datatables/dataTables.bootstrap4.css" beforeDir="false" afterPath="$PROJECT_DIR$/Apps/App_Get_a_Job/static/C_Principal/vendor/datatables/dataTables.bootstrap4.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apps/App_Get_a_Job/static/C_Principal/vendor/datatables/dataTables.bootstrap4.js" beforeDir="false" afterPath="$PROJECT_DIR$/Apps/App_Get_a_Job/static/C_Principal/vendor/datatables/dataTables.bootstrap4.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apps/App_Get_a_Job/static/C_Principal/vendor/datatables/jquery.dataTables.js" beforeDir="false" afterPath="$PROJECT_DIR$/Apps/App_Get_a_Job/static/C_Principal/vendor/datatables/jquery.dataTables.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apps/App_Get_a_Job/static/C_Principal/vendor/font-awesome/css/font-awesome.css" beforeDir="false" afterPath="$PROJECT_DIR$/Apps/App_Get_a_Job/static/C_Principal/vendor/font-awesome/css/font-awesome.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apps/App_Get_a_Job/static/C_Principal/vendor/font-awesome/css/font-awesome.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/Apps/App_Get_a_Job/static/C_Principal/vendor/font-awesome/css/font-awesome.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apps/App_Get_a_Job/static/C_Principal/vendor/font-awesome/css/font-awesome.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/Apps/App_Get_a_Job/static/C_Principal/vendor/font-awesome/css/font-awesome.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apps/App_Get_a_Job/static/C_Principal/vendor/font-awesome/fonts/fontawesome-webfont.svg" beforeDir="false" afterPath="$PROJECT_DIR$/Apps/App_Get_a_Job/static/C_Principal/vendor/font-awesome/fonts/fontawesome-webfont.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apps/App_Get_a_Job/static/C_Principal/vendor/font-awesome/less/animated.less" beforeDir="false" afterPath="$PROJECT_DIR$/Apps/App_Get_a_Job/static/C_Principal/vendor/font-awesome/less/animated.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apps/App_Get_a_Job/static/C_Principal/vendor/font-awesome/less/bordered-pulled.less" beforeDir="false" afterPath="$PROJECT_DIR$/Apps/App_Get_a_Job/static/C_Principal/vendor/font-awesome/less/bordered-pulled.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apps/App_Get_a_Job/static/C_Principal/vendor/font-awesome/less/core.less" beforeDir="false" afterPath="$PROJECT_DIR$/Apps/App_Get_a_Job/static/C_Principal/vendor/font-awesome/less/core.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apps/App_Get_a_Job/static/C_Principal/vendor/font-awesome/less/fixed-width.less" beforeDir="false" afterPath="$PROJECT_DIR$/Apps/App_Get_a_Job/static/C_Principal/vendor/font-awesome/less/fixed-width.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apps/App_Get_a_Job/static/C_Principal/vendor/font-awesome/less/font-awesome.less" beforeDir="false" afterPath="$PROJECT_DIR$/Apps/App_Get_a_Job/static/C_Principal/vendor/font-awesome/less/font-awesome.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apps/App_Get_a_Job/static/C_Principal/vendor/font-awesome/less/icons.less" beforeDir="false" afterPath="$PROJECT_DIR$/Apps/App_Get_a_Job/static/C_Principal/vendor/font-awesome/less/icons.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apps/App_Get_a_Job/static/C_Principal/vendor/font-awesome/less/larger.less" beforeDir="false" afterPath="$PROJECT_DIR$/Apps/App_Get_a_Job/static/C_Principal/vendor/font-awesome/less/larger.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apps/App_Get_a_Job/static/C_Principal/vendor/font-awesome/less/list.less" beforeDir="false" afterPath="$PROJECT_DIR$/Apps/App_Get_a_Job/static/C_Principal/vendor/font-awesome/less/list.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apps/App_Get_a_Job/static/C_Principal/vendor/font-awesome/less/mixins.less" beforeDir="false" afterPath="$PROJECT_DIR$/Apps/App_Get_a_Job/static/C_Principal/vendor/font-awesome/less/mixins.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apps/App_Get_a_Job/static/C_Principal/vendor/font-awesome/less/path.less" beforeDir="false" afterPath="$PROJECT_DIR$/Apps/App_Get_a_Job/static/C_Principal/vendor/font-awesome/less/path.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apps/App_Get_a_Job/static/C_Principal/vendor/font-awesome/less/rotated-flipped.less" beforeDir="false" afterPath="$PROJECT_DIR$/Apps/App_Get_a_Job/static/C_Principal/vendor/font-awesome/less/rotated-flipped.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apps/App_Get_a_Job/static/C_Principal/vendor/font-awesome/less/screen-reader.less" beforeDir="false" afterPath="$PROJECT_DIR$/Apps/App_Get_a_Job/static/C_Principal/vendor/font-awesome/less/screen-reader.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apps/App_Get_a_Job/static/C_Principal/vendor/font-awesome/less/stacked.less" beforeDir="false" afterPath="$PROJECT_DIR$/Apps/App_Get_a_Job/static/C_Principal/vendor/font-awesome/less/stacked.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apps/App_Get_a_Job/static/C_Principal/vendor/font-awesome/less/variables.less" beforeDir="false" afterPath="$PROJECT_DIR$/Apps/App_Get_a_Job/static/C_Principal/vendor/font-awesome/less/variables.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apps/App_Get_a_Job/static/C_Principal/vendor/font-awesome/scss/_animated.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Apps/App_Get_a_Job/static/C_Principal/vendor/font-awesome/scss/_animated.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apps/App_Get_a_Job/static/C_Principal/vendor/font-awesome/scss/_bordered-pulled.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Apps/App_Get_a_Job/static/C_Principal/vendor/font-awesome/scss/_bordered-pulled.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apps/App_Get_a_Job/static/C_Principal/vendor/font-awesome/scss/_core.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Apps/App_Get_a_Job/static/C_Principal/vendor/font-awesome/scss/_core.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apps/App_Get_a_Job/static/C_Principal/vendor/font-awesome/scss/_fixed-width.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Apps/App_Get_a_Job/static/C_Principal/vendor/font-awesome/scss/_fixed-width.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apps/App_Get_a_Job/static/C_Principal/vendor/font-awesome/scss/_icons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Apps/App_Get_a_Job/static/C_Principal/vendor/font-awesome/scss/_icons.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apps/App_Get_a_Job/static/C_Principal/vendor/font-awesome/scss/_larger.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Apps/App_Get_a_Job/static/C_Principal/vendor/font-awesome/scss/_larger.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apps/App_Get_a_Job/static/C_Principal/vendor/font-awesome/scss/_list.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Apps/App_Get_a_Job/static/C_Principal/vendor/font-awesome/scss/_list.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apps/App_Get_a_Job/static/C_Principal/vendor/font-awesome/scss/_mixins.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Apps/App_Get_a_Job/static/C_Principal/vendor/font-awesome/scss/_mixins.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apps/App_Get_a_Job/static/C_Principal/vendor/font-awesome/scss/_path.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Apps/App_Get_a_Job/static/C_Principal/vendor/font-awesome/scss/_path.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apps/App_Get_a_Job/static/C_Principal/vendor/font-awesome/scss/_rotated-flipped.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Apps/App_Get_a_Job/static/C_Principal/vendor/font-awesome/scss/_rotated-flipped.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apps/App_Get_a_Job/static/C_Principal/vendor/font-awesome/scss/_screen-reader.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Apps/App_Get_a_Job/static/C_Principal/vendor/font-awesome/scss/_screen-reader.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apps/App_Get_a_Job/static/C_Principal/vendor/font-awesome/scss/_stacked.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Apps/App_Get_a_Job/static/C_Principal/vendor/font-awesome/scss/_stacked.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apps/App_Get_a_Job/static/C_Principal/vendor/font-awesome/scss/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Apps/App_Get_a_Job/static/C_Principal/vendor/font-awesome/scss/_variables.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apps/App_Get_a_Job/static/C_Principal/vendor/font-awesome/scss/font-awesome.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Apps/App_Get_a_Job/static/C_Principal/vendor/font-awesome/scss/font-awesome.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apps/App_Get_a_Job/static/C_Principal/vendor/jquery-easing/jquery.easing.compatibility.js" beforeDir="false" afterPath="$PROJECT_DIR$/Apps/App_Get_a_Job/static/C_Principal/vendor/jquery-easing/jquery.easing.compatibility.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apps/App_Get_a_Job/static/C_Principal/vendor/jquery-easing/jquery.easing.js" beforeDir="false" afterPath="$PROJECT_DIR$/Apps/App_Get_a_Job/static/C_Principal/vendor/jquery-easing/jquery.easing.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apps/App_Get_a_Job/static/C_Principal/vendor/jquery/jquery.js" beforeDir="false" afterPath="$PROJECT_DIR$/Apps/App_Get_a_Job/static/C_Principal/vendor/jquery/jquery.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apps/App_Get_a_Job/static/C_Principal/vendor/jquery/jquery.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/Apps/App_Get_a_Job/static/C_Principal/vendor/jquery/jquery.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apps/App_Get_a_Job/static/C_Principal/vendor/jquery/jquery.slim.js" beforeDir="false" afterPath="$PROJECT_DIR$/Apps/App_Get_a_Job/static/C_Principal/vendor/jquery/jquery.slim.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apps/App_Get_a_Job/static/C_Principal/vendor/jquery/jquery.slim.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/Apps/App_Get_a_Job/static/C_Principal/vendor/jquery/jquery.slim.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apps/App_Get_a_Job/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Apps/App_Get_a_Job/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apps/App_Get_a_Job/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Apps/App_Get_a_Job/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_Final_BD.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_Final_BD.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_Final_DS/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_Final_DS/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Templates/App_G_a_J/C_Principal/Formulario_Curriculum.html" beforeDir="false" afterPath="$PROJECT_DIR$/Templates/App_G_a_J/C_Principal/Formulario_Curriculum.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Templates/App_G_a_J/C_Principal/Perfiles.html" beforeDir="false" afterPath="$PROJECT_DIR$/Templates/App_G_a_J/C_Principal/Perfiles.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Templates/App_G_a_J/Login_Registro.html" beforeDir="false" afterPath="$PROJECT_DIR$/Templates/App_G_a_J/Login_Registro.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Templates/App_G_a_J/Prototipo_VistaPerfil.html" beforeDir="false" afterPath="$PROJECT_DIR$/Templates/App_G_a_J/Prototipo_VistaPerfil.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Templates/crearEmpl2.html" beforeDir="false" afterPath="$PROJECT_DIR$/Templates/crearEmpl2.html" afterDir="false" />
-    </list>
+    <list default="true" id="af14b983-d1db-46d5-afc9-afa20e47b14b" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -120,7 +18,7 @@
         <entry file="file://$PROJECT_DIR$/Apps/App_Get_a_Job/urls.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-26">
-              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
               <folding>
                 <element signature="e#0#32#0" expanded="true" />
               </folding>
@@ -236,7 +134,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1382" />
@@ -334,9 +232,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1566618" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1566618" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info id="DB Browser" order="2" />
       <window_info anchor="bottom" id="DB Execution Console" order="1" />
@@ -345,7 +242,7 @@
       <window_info anchor="bottom" id="Version Control" order="0" weight="0.3280507" />
       <window_info anchor="bottom" id="Python Console" order="5" />
       <window_info id="Structure" order="3" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="2" visible="true" weight="0.28050712" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="2" visible="true" weight="0.28050712" />
       <window_info anchor="bottom" id="Debug" order="10" weight="0.4" />
       <window_info id="Favorites" order="1" side_tool="true" />
       <window_info active="true" anchor="right" x="359" y="48" width="647" height="631" id="Embedded Web Browser" order="3" visible="true" weight="0.4736457" />
@@ -421,7 +318,7 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url />
+          <url>file://$PROJECT_DIR$/Apps/App_Usuarios/admin.py</url>
           <line>1</line>
           <option name="timeStamp" value="14" />
         </line-breakpoint>
@@ -632,7 +529,7 @@
     <entry file="file://$PROJECT_DIR$/Apps/App_Get_a_Job/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-26">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
           <folding>
             <element signature="e#0#32#0" expanded="true" />
           </folding>
