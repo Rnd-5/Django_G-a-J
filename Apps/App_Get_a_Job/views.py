@@ -76,17 +76,20 @@ def PagP(request):
 
 def PerfilSolct(request):
     return render(request, 'App_G_a_J/Prototipo_VistaPerfil.html', {})
+
+
 """
 def crearCurriculum(request):
     if request.method == 'POST':
         form = CurriculumForm(request.POST)
         if form.is_valid():
             form.save()
-            return redirect('App_Get_a_Job:PerfilSolct')
+            return redirect('App_G_a_J:PerfilSolct')
     else:
         form = CurriculumForm()
     return render(request, 'crearEmpl2.html', {'form': form})
 """
+
 def list_Solicitantes(request):
     solicitante = Solicitante.objects.all()
     contexto = {'solicitantes': solicitante}
@@ -96,8 +99,15 @@ def list_Solicitantes(request):
 class l_Solicitante(ListView):
     model = Solicitante
     template_name = 'App_G_a_J/C_Principal/Perfiles.html'
+"""
+class Curriculum(ListView):
+    model = Curriculum
+    template_name = 'App_G_a_J/Prototipo_VistaPerfil.html'
 
-
+    def get_queryset(self, *args, **kwargs):
+        return Curriculum.objects.filter(user=self.request.user)
+"""
+"""
 def curriulum_view(request):
     if request.method == 'POST':
         form = CurriculumForm(request.POST)
@@ -107,9 +117,13 @@ def curriulum_view(request):
     else:
         form = CurriculumForm()
     return render(request, 'App_G_a_J/curriculum.html', {'form': form})
+"""
+def mCurriculum(request):
+    return render(request, 'App_G_a_J')
 
-
-
+class l_curriculum(ListView):
+    model = Curriculum
+    template_name = 'App_G_a_J/C_Principal/Formulario_Curriculum.html'
 
 
 """class Login(FormView):
